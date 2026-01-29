@@ -1,4 +1,4 @@
-site_name: CFE Teaching Toolkit
+site_name: UNC Teaching Toolkit
 site_url: https://krisjordan.github.io/teachingtoolkit/
 site_description: Resources and tools for UNC instructors throughout the teaching lifecycle
 
@@ -75,9 +75,9 @@ extra:
 
 nav:
   - Home: index.md
-  - What's New: 
-    - whats-new/index.md
-    - Spring 2026 Updates: whats-new/spring-2026.md
+  # - What's New: 
+  #   - whats-new/index.md
+  #   - Spring 2026 Updates: whats-new/spring-2026.md
   - Before the Semester:
     - before/index.md
     - Semester Kickoff Checklist: before/kickoff-checklist.md
@@ -101,11 +101,11 @@ nav:
       - AI Office Hours Prep: tools/ai/office-hours.md
     - Canvas Tips: tools/canvas-tips.md
     - Video & Media: tools/video-media.md
-  - Faculty Spotlights:
-    - spotlights/index.md
-    - Dr. Sarah Chen on Active Learning: spotlights/sarah-chen.md
-  - Community:
-    - community/index.md
-    - Share Your Tips: community/submit-tip.md
-    - Teaching Tips Collection: community/tips.md
-  - Tags: tags.md
+  # - Faculty Spotlights:
+  #   - spotlights/index.md
+  #   - Dr. Sarah Chen on Active Learning: spotlights/sarah-chen.md
+  # - Community:
+  #   - community/index.md
+  #   - Share Your Tips: community/submit-tip.md
+  #   - Teaching Tips Collection: community/tips.md
+  # - Tags: tags.md

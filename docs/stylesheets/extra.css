@@ -141,3 +141,27 @@
 .timeline-item:last-child {
   border-left: 3px solid transparent;
 }
+
+/* Custom grid columns */
+@media screen and (min-width: 60em) {
+  .md-typeset .grid.cards.three-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Reduce spacing inside list-based cards so children sit closer to their parent */
+.md-typeset .grid.cards li > ul,
+.md-typeset .grid.cards li > ol {
+  margin-top: 0.00rem;
+  margin-bottom: 0.00rem;
+  padding-left: 0.75rem;
+}
+
+.md-typeset .grid.cards li li {
+  margin: 0.0rem 0;
+}
+
+.md-typeset .grid.cards li p {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
