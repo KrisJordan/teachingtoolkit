@@ -2,8 +2,8 @@ site_name: CFE Teaching Toolkit
 site_url: https://krisjordan.github.io/teachingtoolkit/
 
 # Optional, but recommended wien publishing on GitHub Pages
-repo_url: https://github.com/KrisJordan/teachingtoolkit/
-repo_name: KrisJordan/teachingtoolkit
+# repo_url: https://github.com/KrisJordan/teachingtoolkit/
+# repo_name: KrisJordan/teachingtoolkit
 
 theme:
   name: material
