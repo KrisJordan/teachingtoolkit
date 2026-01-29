@@ -104,6 +104,7 @@ hide:
 
     - AI Tools for Education
         - [MagicSchool](./tools/magic-school.md)
+        - [Tool Z](./tools/z.md)
     - General Chat and Agents
         - [Gemini]()
         - [ChatGPT]()
