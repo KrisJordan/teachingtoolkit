@@ -1,13 +1,111 @@
 site_name: CFE Teaching Toolkit
 site_url: https://krisjordan.github.io/teachingtoolkit/
+site_description: Resources and tools for UNC instructors throughout the teaching lifecycle
 
-# Optional, but recommended wien publishing on GitHub Pages
+# Optional, but recommended when publishing on GitHub Pages
 # repo_url: https://github.com/KrisJordan/teachingtoolkit/
 # repo_name: KrisJordan/teachingtoolkit
 
 theme:
   name: material
   custom_dir: overrides
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - announce.dismiss
+  icon:
+    logo: material/school
+    annotation: material/arrow-right-circle
+
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
+  - tags:
+      tags_file: tags.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/KrisJordan/teachingtoolkit
+  tags:
+    New: new
+    Canvas: canvas
+    AI: ai
+    Video: video
+    Assessment: assessment
+
+nav:
+  - Home: index.md
+  - What's New: 
+    - whats-new/index.md
+    - Spring 2026 Updates: whats-new/spring-2026.md
+  - Before the Semester:
+    - before/index.md
+    - Semester Kickoff Checklist: before/kickoff-checklist.md
+    - Course Design Essentials: before/course-design.md
+    - Setting Up Canvas: before/canvas-setup.md
+  - During the Semester:
+    - during/index.md
+    - Weekly Teaching Rhythm: during/weekly-rhythm.md
+    - Canvas Announcements Checklist: during/announcements-checklist.md
+    - Midterm Check-In: during/midterm-checkin.md
+    - Exam Preparation Checklist: during/exam-checklist.md
+  - After the Semester:
+    - after/index.md
+    - End of Semester Checklist: after/end-checklist.md
+    - Reflecting & Iterating: after/reflection.md
+  - Tools & Guides:
+    - tools/index.md
+    - AI for Teaching:
+      - tools/ai/index.md
+      - Generating Reading Questions: tools/ai/reading-questions.md
+      - AI Office Hours Prep: tools/ai/office-hours.md
+    - Canvas Tips: tools/canvas-tips.md
+    - Video & Media: tools/video-media.md
+  - Faculty Spotlights:
+    - spotlights/index.md
+    - Dr. Sarah Chen on Active Learning: spotlights/sarah-chen.md
+  - Community:
+    - community/index.md
+    - Share Your Tips: community/submit-tip.md
+    - Teaching Tips Collection: community/tips.md
+  - Tags: tags.md
