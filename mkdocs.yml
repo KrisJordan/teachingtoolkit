@@ -78,29 +78,29 @@ nav:
   # - What's New: 
   #   - whats-new/index.md
   #   - Spring 2026 Updates: whats-new/spring-2026.md
-  - Before the Semester:
+  - Leading Courses:
     - before/index.md
     - Semester Kickoff Checklist: before/kickoff-checklist.md
     - Course Design Essentials: before/course-design.md
     - Setting Up Canvas: before/canvas-setup.md
-  - During the Semester:
+  - Educational Technology:
     - during/index.md
     - Weekly Teaching Rhythm: during/weekly-rhythm.md
     - Canvas Announcements Checklist: during/announcements-checklist.md
     - Midterm Check-In: during/midterm-checkin.md
     - Exam Preparation Checklist: during/exam-checklist.md
-  - After the Semester:
-    - after/index.md
-    - End of Semester Checklist: after/end-checklist.md
-    - Reflecting & Iterating: after/reflection.md
-  - Tools & Guides:
-    - tools/index.md
-    - AI for Teaching:
-      - tools/ai/index.md
-      - Generating Reading Questions: tools/ai/reading-questions.md
-      - AI Office Hours Prep: tools/ai/office-hours.md
-    - Canvas Tips: tools/canvas-tips.md
-    - Video & Media: tools/video-media.md
+  # - After the Semester:
+  #   - after/index.md
+  #   - End of Semester Checklist: after/end-checklist.md
+  #   - Reflecting & Iterating: after/reflection.md
+  # - Tools & Guides:
+  #   - tools/index.md
+  #   - AI for Teaching:
+  #     - tools/ai/index.md
+  #     - Generating Reading Questions: tools/ai/reading-questions.md
+  #     - AI Office Hours Prep: tools/ai/office-hours.md
+  #   - Canvas Tips: tools/canvas-tips.md
+  #   - Video & Media: tools/video-media.md
   # - Faculty Spotlights:
   #   - spotlights/index.md
   #   - Dr. Sarah Chen on Active Learning: spotlights/sarah-chen.md
