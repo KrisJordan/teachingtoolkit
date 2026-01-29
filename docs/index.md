@@ -102,7 +102,9 @@ hide:
 
     Commercial tools with educational utility.
 
-    - Chat and Agents
+    - AI Tools for Education
+        - [MagicSchool](./tools/magic-school.md)
+    - General Chat and Agents
         - [Gemini]()
         - [ChatGPT]()
         - [Claude]()
