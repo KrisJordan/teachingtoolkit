@@ -19,6 +19,20 @@ MagicSchool provides a suite of over 50+ AI tools ("generators") tailored to spe
 *   **Communication:** Draft professional emails to parents, students, or colleagues.
 *   **Multi-Model AI:** The platform uses a combination of top AI models (including GPT-4o, Claude, and Gemini) to power its tools, selecting the best model for each specific task.
 
+## Tools Available
+
+A selection of the tools available in the suite:
+
+| Category | Tools Examples |
+| :--- | :--- |
+| **Planning** | Lesson Plan Generator, Unit Plan Generator, Standards Unpacker |
+| **Assessment** | Multiple Choice Quiz, Rubric Generator, Jeopardy Review Game |
+| **Content** | Youtube Video Questions, Informational Text Generator, Slide Generator |
+| **Support** | IEP Generator, Text Leveler, Choice Board (UDL) |
+| **Admin** | Professional Email, Letter of Recommendation, Report Card Comments |
+
+*For a full list and to try the tools, visit [MagicSchool.ai](https://www.magicschool.ai).*
+
 ## Cost Breakdown
 
 *   **Free:** Access to most tools with usage limits on the number of generations per day. Good for occasional use.
@@ -31,6 +45,7 @@ MagicSchool provides a suite of over 50+ AI tools ("generators") tailored to spe
 ## Ease of Use
 
 MagicSchool is one of the most accessible AI tools for beginners. 
+
 *   **No Prompting Needed:** You don't need to know how to talk to a robot. You just fill out fields like "Grade Level," "Topic," and "Standards."
 *   **Guided Experience:** The interface is intuitive, looking more like a standard web form than a coding terminal.
 *   **Integration:** Integrates with Google Docs, Classroom, Canvas, and other LMS platforms.
@@ -47,16 +62,3 @@ MagicSchool is one of the most accessible AI tools for beginners.
 *   **Human in the Loop:** Never copy-paste directly to students without review.
 *   **Privacy First:** Even with privacy guarantees, avoid entering sensitive Personal Identifiable Information (PII) like student names or ID numbers into the forms.
 
-## Tools Available
-
-A selection of the tools available in the suite:
-
-| Category | Tools Examples |
-| :--- | :--- |
-| **Planning** | Lesson Plan Generator, Unit Plan Generator, Standards Unpacker |
-| **Assessment** | Multiple Choice Quiz, Rubric Generator, Jeopardy Review Game |
-| **Content** | Youtube Video Questions, Informational Text Generator, Slide Generator |
-| **Support** | IEP Generator, Text Leveler, Choice Board (UDL) |
-| **Admin** | Professional Email, Letter of Recommendation, Report Card Comments |
-
-*For a full list and to try the tools, visit [MagicSchool.ai](https://www.magicschool.ai).*
