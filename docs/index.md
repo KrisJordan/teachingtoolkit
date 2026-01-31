@@ -17,6 +17,7 @@ hide:
     Preparing for a new semester.
 
     - [Kickoff Checklist](before/kickoff-checklist.md)
+    - [TA Onboarding]()
     - [Course Design](before/course-design.md)
     - [Syllabus](./)
         - [Checklist]()
@@ -26,6 +27,7 @@ hide:
         - [Canvas](./)
         - [Gradescope](./)
         - [PollEverywhere](./)
+        - [Ed Discussion](./)
     - [Readings](during/announcements-checklist.md)
         - [Finding Sources]()
         - [Course Reserves]()
@@ -71,6 +73,11 @@ hide:
         - [Posting Grades to Canvas]()
         - [Posting Grades to ConnectCarolina]()
     - [Letters of Recommendation]()
+    - [Email Templates]()
+    - [Students in Distress]()
+       - [Care referrals DOS / Caps]()
+       - [learning center]()
+       - [academic advising]()
 
 </div>
 
@@ -120,3 +127,12 @@ hide:
     - [AI in Education in the News]()
 
 </div>
+
+## Broader Concerns?
+
+- Fixed-term Best Practices
+- Campus Safety
+- Course Evals
+- Teaching Awards
+- Professional Development
+- Peer Teaching
