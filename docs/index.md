@@ -16,9 +16,9 @@ hide:
 
     Preparing for a new semester.
 
-    - [Kickoff Checklist](before/kickoff-checklist.md)
+    - [Kickoff Checklist]()
     - [TA Onboarding]()
-    - [Course Design](before/course-design.md)
+    - [Course Design]()
     - [Syllabus](./)
         - [Checklist]()
         - [Proofing]()
@@ -28,7 +28,7 @@ hide:
         - [Gradescope](./)
         - [PollEverywhere](./)
         - [Ed Discussion](./)
-    - [Readings](during/announcements-checklist.md)
+    - [Readings]()
         - [Finding Sources]()
         - [Course Reserves]()
         - [Guided Reading Questions]()
@@ -37,9 +37,9 @@ hide:
 
     ---
 
-    Leading courses that support student outcomes.
+    Leading impactful courses.
 
-    - [Lecture](during/lecture.md)
+    - [Lecture]()
         - [Preparation]()
         - [Active Learning]()
         - [Recording]()
@@ -47,18 +47,19 @@ hide:
         - [Canvas Learning Modules]()
         - [Canvas Assignments]()
         - [Gradescope Assignments]()
-    - [Assessment](during/exam-checklist.md)
+    - [Assessment]()
         - [Checklist]()
         - [Writing]()
         - [Grading]()
         - [Assigning Seats]()
         - [Makeups]()
+    - [End of Course Checklist]()
 
 -   :material-calendar-check:{ .lg .middle } **Course Logistics**
 
     ---
 
-    Tips for staying organized and communications.
+    Communications and organization.
 
     - [Class Announcements]()
     - [Accomodations]()
@@ -69,15 +70,12 @@ hide:
     - [Space]()
         - [Classrooms]()
         - [Meeting Rooms]()
-    - [End of Course Checklist](after/end-checklist.md)
-        - [Posting Grades to Canvas]()
-        - [Posting Grades to ConnectCarolina]()
     - [Letters of Recommendation]()
     - [Email Templates]()
     - [Students in Distress]()
-       - [Care referrals DOS / Caps]()
-       - [learning center]()
-       - [academic advising]()
+        - [Care Referrals DOS]()
+        - [Learning Center]()
+        - [Academic Advising]()
 
 </div>
 
@@ -93,7 +91,7 @@ hide:
 
     - Chat and Agents
         - [Copilot 365 AI](./)
-        - [AI Studio](./)
+        - [Copilot Studio](./)
     - [Canvas](./)
         - [AI Discussion Moderation](./)
     - [Gradescope](./)
@@ -111,11 +109,11 @@ hide:
 
     - AI Tools for Education
         - [MagicSchool](./tools/magic-school.md)
-        - [Tool Z](./tools/z.md)
     - General Chat and Agents
         - [Gemini]()
         - [ChatGPT]()
         - [Claude]()
+        - [NotebookLM]()
 
 -   :material-beaker:{ .lg .middle } **Research and Experimental**
 
