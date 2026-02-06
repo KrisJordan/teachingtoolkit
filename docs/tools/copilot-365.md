@@ -33,6 +33,12 @@ The Copilot 365 team has created tools for instructors with more under developme
 
 Brainstorm and iterate on a structured lesson plan by filling in a simple form with the following fields. This is a useful tool for finding new ideas for lessons that need refreshing or sanity checking a new lesson you are working on.
 
+* Subject
+* Grade Level: Higher Education
+* Description: Learning and content scope of the lecture (10,000 character limit)
+* Optional file attachments
+* Duration (free text customizable to 50 minutes)
+
 <div class="video-container">
   <iframe 
     src="https://www.youtube.com/embed/Cqby21PX9IU" 
@@ -42,12 +48,6 @@ Brainstorm and iterate on a structured lesson plan by filling in a simple form w
     allowfullscreen>
   </iframe>
 </div>
-
-* Subject
-* Grade Level: Higher Education
-* Description: Learning and content scope of the lecture (10,000 character limit)
-* Optional file attachments
-* Duration (free text customizable to 50 minutes)
 
 The tool generates a structured document broken down into timed segments. You can edit the draft directly or enhance it with AI by changing _tone_, _length_, or providing custom instructions. You can go back to earlier drafts at any time.
 
