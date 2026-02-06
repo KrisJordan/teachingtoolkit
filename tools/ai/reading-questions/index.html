@@ -1,0 +1,855 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Resources and tools for UNC instructors throughout the teaching lifecycle">
+      
+      
+      
+        <link rel="canonical" href="https://krisjordan.github.io/teachingtoolkit/tools/ai/reading-questions/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Generating Reading Questions with AI - UNC Teaching Toolkit</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M22%2012a10%2010%200%200%201-10%2010A10%2010%200%200%201%202%2012%2010%2010%200%200%201%2012%202a10%2010%200%200%201%2010%2010M6%2013h8l-3.5%203.5%201.42%201.42L17.84%2012l-5.92-5.92L10.5%207.5%2014%2011H6z%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#generating-reading-questions-with-ai" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="UNC Teaching Toolkit" class="md-header__button md-logo" aria-label="UNC Teaching Toolkit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UNC Teaching Toolkit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Generating Reading Questions with AI
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="UNC Teaching Toolkit" class="md-nav__button md-logo" aria-label="UNC Teaching Toolkit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
+
+    </a>
+    UNC Teaching Toolkit
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#video-walkthrough" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Video Walkthrough
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-youll-need" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What You'll Need
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#learning-objectives-this-supports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learning Objectives This Supports
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-by-step-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step-by-Step Guide
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step-by-Step Guide">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#step-1-prepare-the-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Prepare the Reading
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-2-write-your-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Write Your Prompt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-filled-in-prompt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example Filled-In Prompt
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-3-review-and-refine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Review and Refine
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-refinements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Refinements
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#step-4-format-for-your-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Format for Your Use
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sample-output" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sample Output
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pro-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pro Tips
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#variations-to-try" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Variations to Try
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Variations to Try">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#for-different-question-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        For Different Question Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#troubleshooting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Troubleshooting
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Resources
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+        
+        
+          
+        
+      
+      
+        <a href="../../../tags/#tag:ai" class="md-tag md-tag-icon md-tag--ai">AI</a>
+      
+    
+      
+      
+      
+        
+        
+          
+        
+      
+      
+        <a href="../../../tags/#tag:new" class="md-tag md-tag-icon md-tag--new">New</a>
+      
+    
+  </nav>
+
+
+
+<h1 id="generating-reading-questions-with-ai">Generating Reading Questions with AI<a class="headerlink" href="#generating-reading-questions-with-ai" title="Permanent link">&para;</a></h1>
+<p><strong>Time savings: ~30-60 minutes per reading</strong></p>
+<p>Transform lengthy readings into engaging discussion questions in minutes using AI tools. This guide walks you through a repeatable process for generating high-quality reading questions.</p>
+<hr />
+<h2 id="video-walkthrough">Video Walkthrough<a class="headerlink" href="#video-walkthrough" title="Permanent link">&para;</a></h2>
+<div class="video-container">
+  <iframe 
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+    title="Generating Reading Questions with AI"
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Video placeholder</p>
+<p><em>This is a placeholder for a CFE tutorial video. When the actual video is created, replace the YouTube URL above.</em></p>
+</div>
+<hr />
+<h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h2>
+<p>Generating reading questions manually is time-consuming but essential for promoting engaged reading and meaningful discussion. AI can dramatically speed up this process while still allowing you to curate and refine the final questions.</p>
+<h3 id="what-youll-need">What You'll Need<a class="headerlink" href="#what-youll-need" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Access to an AI tool (ChatGPT, Claude, Copilot, etc.)</li>
+<li>A PDF or text version of the reading</li>
+<li>10-15 minutes per reading</li>
+</ul>
+<h3 id="learning-objectives-this-supports">Learning Objectives This Supports<a class="headerlink" href="#learning-objectives-this-supports" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Helping students identify key arguments and themes</li>
+<li>Preparing students for class discussion</li>
+<li>Encouraging deeper engagement with texts</li>
+<li>Building critical thinking skills</li>
+</ul>
+<hr />
+<h2 id="step-by-step-guide">Step-by-Step Guide<a class="headerlink" href="#step-by-step-guide" title="Permanent link">&para;</a></h2>
+<h3 id="step-1-prepare-the-reading">Step 1: Prepare the Reading<a class="headerlink" href="#step-1-prepare-the-reading" title="Permanent link">&para;</a></h3>
+<div class="admonition tip">
+<p class="admonition-title">Keep it focused</p>
+<p>For best results, work with one article or chapter at a time rather than multiple readings.</p>
+</div>
+<p><strong>Options for getting text into AI:</strong></p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Copy/Paste Text</label><label for="__tabbed_1_2">Summarize First</label><label for="__tabbed_1_3">Use PDF Upload (if available)</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>Copy the relevant text from your PDF or source</li>
+<li>Paste directly into the AI tool</li>
+<li>Works well for shorter readings (under 5,000 words)</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>If the reading is too long, ask AI to summarize it first</li>
+<li>Then generate questions from the summary</li>
+<li>Review to ensure key concepts aren't missed</li>
+</ol>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>Some AI tools allow PDF upload directly</li>
+<li>Upload the document</li>
+<li>Reference it in your prompt</li>
+</ol>
+</div>
+</div>
+</div>
+<hr />
+<h3 id="step-2-write-your-prompt">Step 2: Write Your Prompt<a class="headerlink" href="#step-2-write-your-prompt" title="Permanent link">&para;</a></h3>
+<p>The quality of questions depends heavily on your prompt. Here's a template:</p>
+<div class="highlight"><pre><span></span><code>I&#39;m teaching a [level] course on [subject]. Students will read the 
+attached article/chapter before our class discussion.
+
+Please generate [number] discussion questions based on this reading that:
+<span class="k">-</span><span class="w"> </span>Move beyond simple recall to analysis and application
+<span class="k">-</span><span class="w"> </span>Connect to [specific themes or concepts you&#39;re covering]
+<span class="k">-</span><span class="w"> </span>Are appropriate for [undergraduate/graduate] students
+<span class="k">-</span><span class="w"> </span>Include a mix of:
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Questions about the author&#39;s main argument
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Questions that ask students to evaluate evidence
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Questions that connect to [broader course themes or current events]
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>One question that challenges students to disagree with or complicate the author&#39;s position
+
+Format each question with a brief note about what aspect of the reading it addresses.
+
+[Paste reading or reference uploaded document]
+</code></pre></div>
+<h3 id="example-filled-in-prompt">Example Filled-In Prompt<a class="headerlink" href="#example-filled-in-prompt" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code>I&#39;m teaching an undergraduate course on Environmental Policy. Students 
+will read the attached chapter on carbon pricing before our seminar.
+
+Please generate 6 discussion questions based on this reading that:
+<span class="k">-</span><span class="w"> </span>Move beyond simple recall to analysis and application  
+<span class="k">-</span><span class="w"> </span>Connect to our unit on market-based environmental solutions
+<span class="k">-</span><span class="w"> </span>Are appropriate for upper-level undergraduate students
+<span class="k">-</span><span class="w"> </span>Include a mix of:
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Questions about the author&#39;s main argument
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Questions that ask students to evaluate evidence
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>Questions that connect to current climate policy debates
+<span class="w">  </span><span class="k">-</span><span class="w"> </span>One question that challenges students to disagree with or complicate the author&#39;s position
+
+Format each question with a brief note about what aspect of the reading it addresses.
+</code></pre></div>
+<hr />
+<h3 id="step-3-review-and-refine">Step 3: Review and Refine<a class="headerlink" href="#step-3-review-and-refine" title="Permanent link">&para;</a></h3>
+<p>AI-generated questions are a <strong>starting point</strong>, not a finished product. Review for:</p>
+<table>
+<thead>
+<tr>
+<th>Check</th>
+<th>Questions to Ask</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Relevance</strong></td>
+<td>Does this question connect to my learning objectives?</td>
+</tr>
+<tr>
+<td><strong>Level</strong></td>
+<td>Is this appropriate for my students' background?</td>
+</tr>
+<tr>
+<td><strong>Clarity</strong></td>
+<td>Will students understand what's being asked?</td>
+</tr>
+<tr>
+<td><strong>Depth</strong></td>
+<td>Does this go beyond what students could answer without reading?</td>
+</tr>
+<tr>
+<td><strong>Balance</strong></td>
+<td>Do I have a mix of question types?</td>
+</tr>
+</tbody>
+</table>
+<h3 id="common-refinements">Common Refinements<a class="headerlink" href="#common-refinements" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Simplify overly complex questions</li>
+<li>Add context or scaffolding for challenging questions</li>
+<li>Remove questions that miss the point</li>
+<li>Adjust vocabulary for your student population</li>
+<li>Add your own questions for key points AI missed</li>
+</ul>
+<hr />
+<h3 id="step-4-format-for-your-use">Step 4: Format for Your Use<a class="headerlink" href="#step-4-format-for-your-use" title="Permanent link">&para;</a></h3>
+<p><strong>For Canvas Discussion Board:</strong></p>
+<div class="highlight"><pre><span></span><code>After completing this week&#39;s reading on [topic], respond to ONE of the 
+following questions in 200-300 words:
+
+<span class="k">1.</span> [Question 1]
+<span class="k">2.</span> [Question 2]
+<span class="k">3.</span> [Question 3]
+
+Then, reply to at least one classmate&#39;s post with a substantive response.
+</code></pre></div>
+<p><strong>For In-Class Discussion:</strong></p>
+<ul>
+<li>Choose 3-4 questions maximum</li>
+<li>Order from more accessible to more challenging</li>
+<li>Prepare follow-up probes for each question</li>
+<li>Consider small group work before full-class discussion</li>
+</ul>
+<p><strong>For Reading Quiz:</strong></p>
+<ul>
+<li>Adapt open-ended questions into multiple choice or short answer</li>
+<li>Focus on questions that verify engagement with the reading</li>
+<li>Combine with recall questions about key facts/arguments</li>
+</ul>
+<hr />
+<h2 id="sample-output">Sample Output<a class="headerlink" href="#sample-output" title="Permanent link">&para;</a></h2>
+<p>Here's an example of AI-generated questions with instructor refinement:</p>
+<div class="admonition example">
+<p class="admonition-title">AI-Generated Question (Original)</p>
+<p>"How does the author's theoretical framework for understanding carbon pricing mechanisms intersect with neoliberal economic paradigms, and what are the implications for environmental justice?"</p>
+</div>
+<div class="admonition success">
+<p class="admonition-title">Refined Question (After Review)</p>
+<p>"The author argues that carbon pricing can be both economically efficient and equitable. What evidence does the author provide for this claim? Do you find it convincing? Why or why not?"</p>
+</div>
+<hr />
+<h2 id="pro-tips">Pro Tips<a class="headerlink" href="#pro-tips" title="Permanent link">&para;</a></h2>
+<div class="admonition quote">
+<p class="admonition-title">From Dr. James Park, Political Science</p>
+<p>"I regenerate questions multiple times and combine the best from each batch. It takes an extra few minutes but gives me much better options to choose from."</p>
+</div>
+<div class="admonition quote">
+<p class="admonition-title">From Prof. Lisa Torres, English</p>
+<p>"I always add one question of my own that connects to something specific we discussed in the previous class. It helps students see the through-line of the course."</p>
+</div>
+<hr />
+<h2 id="variations-to-try">Variations to Try<a class="headerlink" href="#variations-to-try" title="Permanent link">&para;</a></h2>
+<h3 id="for-different-question-types">For Different Question Types<a class="headerlink" href="#for-different-question-types" title="Permanent link">&para;</a></h3>
+<p><strong>Bloom's Taxonomy Framing:</strong>
+<div class="highlight"><pre><span></span><code>Generate 2 questions at each level: remembering, understanding, 
+applying, analyzing, evaluating, and creating.
+</code></pre></div></p>
+<p><strong>Debate Preparation:</strong>
+<div class="highlight"><pre><span></span><code>Generate questions that could help students prepare to argue 
+either for or against the author&#39;s main thesis.
+</code></pre></div></p>
+<p><strong>Connection Questions:</strong>
+<div class="highlight"><pre><span></span><code>Generate questions that help students connect this reading to 
+[previous reading/concept/real-world example].
+</code></pre></div></p>
+<hr />
+<h2 id="troubleshooting">Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h2>
+<details class="question">
+<summary>Questions are too basic/surface-level</summary>
+<p>Revise your prompt to explicitly request higher-order thinking. Add phrases like "analysis and evaluation" and "require evidence from the text."</p>
+</details>
+<details class="question">
+<summary>Questions don't match my course</summary>
+<p>Add more context about your course, students, and specific learning objectives. The more specific your prompt, the better the output.</p>
+</details>
+<details class="question">
+<summary>AI didn't capture the key argument</summary>
+<p>Try explicitly summarizing what you see as the key argument and asking for questions about that specific point.</p>
+</details>
+<hr />
+<h2 id="related-resources">Related Resources<a class="headerlink" href="#related-resources" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../office-hours/">AI Office Hours Prep</a> — Anticipate student questions</li>
+<li><a href="../../canvas-tips/">Canvas Discussion Tips</a> — Setting up effective discussions</li>
+<li><a href="../../../community/submit-tip/">Share Your Tips</a> — Tell us how you've refined this process</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <div class="md-footer">
+  <div class="md-footer__inner">
+    <div class="md-footer-nav">
+      <p>
+        UNC Teaching Toolkit — &copy; 2026 The University of North Carolina at Chapel Hill
+      </p>
+    </div>
+  </div>
+</div>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "announce.dismiss"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": {"AI": "ai", "Assessment": "assessment", "Canvas": "canvas", "New": "new", "Video": "video"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
