@@ -51,6 +51,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.mark
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.emoji:
@@ -78,17 +80,17 @@ nav:
   # - What's New: 
   #   - whats-new/index.md
   #   - Spring 2026 Updates: whats-new/spring-2026.md
-  - Leading Courses:
-    - before/index.md
-    - Semester Kickoff Checklist: before/kickoff-checklist.md
-    - Course Design Essentials: before/course-design.md
-    - Setting Up Canvas: before/canvas-setup.md
-  - Educational Technology:
-    - during/index.md
-    - Weekly Teaching Rhythm: during/weekly-rhythm.md
-    - Canvas Announcements Checklist: during/announcements-checklist.md
-    - Midterm Check-In: during/midterm-checkin.md
-    - Exam Preparation Checklist: during/exam-checklist.md
+  # - Leading Courses:
+  #   - before/index.md
+  #   - Semester Kickoff Checklist: before/kickoff-checklist.md
+  #   - Course Design Essentials: before/course-design.md
+  #   - Setting Up Canvas: before/canvas-setup.md
+  # - Educational Technology:
+  #   - during/index.md
+  #   - Weekly Teaching Rhythm: during/weekly-rhythm.md
+  #   - Canvas Announcements Checklist: during/announcements-checklist.md
+  #   - Midterm Check-In: during/midterm-checkin.md
+  #   - Exam Preparation Checklist: during/exam-checklist.md
   # - After the Semester:
   #   - after/index.md
   #   - End of Semester Checklist: after/end-checklist.md

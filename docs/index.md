@@ -90,7 +90,8 @@ hide:
     Campus tools available without additional costs.
 
     - Chat and Agents
-        - [Copilot 365 AI](./)
+        - [UNC's PromptLab]()
+        - [Copilot 365 AI](./tools/copilot-365.md)
         - [Copilot Studio](./)
     - [Canvas](./)
         - [AI Discussion Moderation](./)
