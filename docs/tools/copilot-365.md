@@ -1,33 +1,20 @@
-# Microsoft Copilot 365
+# Copilot365 Teaching Tools
 
 | UNC Supported | Cost | Time to Setup | Shortcut | Data Protection |
 |---------------|------|------|---------------|-----------------|
-| Yes | Free | < 1 minute | [go.unc.edu/copilot365](https://m365.cloud.microsoft/chat) | ==Tier 2 (FERPA)== |
+| Yes | Free | < 1 minute | [m365.cloud.microsoft/teach](https://m365.cloud.microsoft/teach) | ==Tier 2 (FERPA)== |
 
-Copilot 365 is Microsoft's AI Chat with additional tools designed for instructors. Its AI engine is the same underlying language models as ChatGPT.  To use, login to [go.unc.edu/copilot365](https://go.unc.edu/copilot365) with your `onyen@ad.unc.edu`. Learn more about its tools:
+<img src="../copilot/teach.png" width="250px" alt="Teach Sidebar in Microsoft Copilot 365" style="float: right; margin-right: 16px">
 
-* [Chat](#chat)
-* Tools for Instructors
-    * [Lesson Plan Creator](#lesson-plan-creator)
-    * [Rubric Creator](#rubric-creator)
-    * [Student Activity Creator](#student-activity-creator)
-        * [Flashcards](#flashcards)
-        * [Fill in the Blank Digital Worksheets](#fill-in-the-blank-creator)
-* [Image, Infographic, and Poster Generation](#image-infographic-and-poster-generation)
+UNC's Microsoft Copilot 365 subscription offers **Teaching Tools** for instructors.
 
-!!! info "UNC's Officially Supported Chat with FERPA Data Protection"
+You can find them in the sidebar under **Teach** or by following this direct link: <https://m365.cloud.microsoft/teach/>
 
-    This is the only AI Chat at UNC that is sanctioned for FERPA protected information education records such as student grades (Tier 2). UNC's license agreement with Microsoft Copilot 365 has support for [UNC Tier 1 (Business Information)](https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=131244) and [Tier 2 (Confidential Information) data](https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=131244).
+<div style="clear:both;"></div>
 
-## Chat
+!!! info "UNC's Officially Supported AI Tools with FERPA Data Protection"
 
-Microsoft 365's Chat is equivalent to other chat tools you may have tried, such as ChatGPT or Claude. For more information on how Carolina faculty are making valuable uses of chat, see our [Instructor's Guide to AI Chat]().
-
-## Special AI Tools for Instructors
-
-The Copilot 365 team has created tools for instructors with more under development. You can find them in the sidebar under **Teach** or by following this direct link: <https://m365.cloud.microsoft/teach/>
-
-<img src="../copilot/teach.png" width="250px" alt="Teach Sidebar in Microsoft Copilot 365">
+    Copilot 365 is currently only AI platform at UNC that is sanctioned for FERPA protected information education records such as student grades (Tier 2). UNC's license agreement with Microsoft Copilot 365 has support for [UNC Tier 1 (Business Information)](https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=131244) and [Tier 2 (Confidential Information) data](https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=131244).
 
 ### Lesson Plan Creator
 
@@ -76,17 +63,3 @@ It is common for grading to be delayed by being stuck on the "rubric block" of c
 **Step 4. Edit and Export**
 
 You can manually edit individual blocks, add and remove rows and columns, or further regenerate with AI. Once you are satisfied with the rubric, you can export it as a Word document to your UNC OneDrive for further editing or printing.
-
-### Student Activity Creator
-
-#### Flashcards
-
-TODO
-
-#### Fill in the Blank Digital Worksheet Creator
-
-TODO
-
-## Image, Infographic, and Poster Generation
-
-Microsoft 365's Image Generation allows you to generate images based on textual descriptions. For more information on how Carolina faculty are making valuable uses of chat, see our [Instructor's Guide to AI Asset Generation]().

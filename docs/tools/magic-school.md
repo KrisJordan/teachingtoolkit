@@ -1,64 +1,62 @@
-# Magic School
+# MagicSchool.ai
 
-## At a Glance
+| UNC Supported | Cost | Time to Setup | Shortcut | UNC Data Protection |
+|---------------|------|------|---------------|-----------------|
+| No | Free for Basic Use,<br>$100/yr for Heavy Use | 5 - 10 minutes | [magicschool.ai](https://magicschool.ai) | No |
 
-- **What is it?** An AI platform designed specifically for educators to assist with lesson planning, content creation, differentiation, assessments, and communication.
-- **Target Audience:** K-12 and Higher Ed faculty looking to save time on administrative and preparatory tasks.
-- **Cost:** Freemium. Generous free tier; Plus version ~$100/yr; Enterprise for institutions.
-- **Difficulty:** Low. No "prompt engineering" required; uses form-based templates.
-- **Privacy:** FERPA/COPPA compliant. Claims not to train models on user data.
 
-## What It Offers
+Magic School is a collection of AI-powered tools for educators. Each tool has simple input forms to structure the workflow, unlike AI chats where you need to detailed prompts from scratch.  
 
-MagicSchool provides a suite of over 50+ AI tools ("generators") tailored to specific teaching tasks. Instead of a blank chat window, you select a tool like "Rubric Generator" or "Multiple Choice Quiz" and fill in a simple form.
+There are over 50+ AI tools ("generators") tailored to specific teaching tasks. The most useful for a university setting are outlined below. 
 
-### Key Features
-*   **Time Saving:** Users report saving 7+ hours a week on prep work.
-*   **Differentiation:** Tools to level text for different reading abilities, generate IEP drafts, and create choice boards.
-*   **Assessment:** Instantly create quizzes, tests, and rubrics aligned to specific standards or topics.
-*   **Communication:** Draft professional emails to parents, students, or colleagues.
-*   **Multi-Model AI:** The platform uses a combination of top AI models (including GPT-4o, Claude, and Gemini) to power its tools, selecting the best model for each specific task.
+## Demonstration Video
 
-## Tools Available
+For a quick preview of how this platform works, this 3-minute demonstration walks you through using the rubric tool to generate a rough draft of a grading rubric for an assignment.
 
-A selection of the tools available in the suite:
+<div class="video-container">
+  <iframe 
+    src="https://www.youtube.com/embed/UCKRA5_L0ng" 
+    title="MagicSchoo.ai 3-minute Demo"
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
 
-| Category | Tools Examples |
-| :--- | :--- |
-| **Planning** | Lesson Plan Generator, Unit Plan Generator, Standards Unpacker |
-| **Assessment** | Multiple Choice Quiz, Rubric Generator, Jeopardy Review Game |
-| **Content** | Youtube Video Questions, Informational Text Generator, Slide Generator |
-| **Support** | IEP Generator, Text Leveler, Choice Board (UDL) |
-| **Admin** | Professional Email, Letter of Recommendation, Report Card Comments |
+## Example Tools
 
-*For a full list and to try the tools, visit [MagicSchool.ai](https://www.magicschool.ai).*
+MagicSchool has a wide variety of focused AI tools serving university instructors  through grade school. The tools below are those we beleve are relevant to Carolina faculty to help with brainstorming and drafting instructional ideas.
 
-## Cost Breakdown
+### Lecture Tools
 
-*   **Free:** Access to most tools with usage limits on the number of generations per day. Good for occasional use.
-*   **MagicSchool Plus:** ~$12.99/month or ~$100/year (billed annually).
-    *   Unlimited usage.
-    *   Access to "Raina," the AI chatbot.
-    *   Newer features and priority access.
-*   **Enterprise:** Custom pricing for schools/districts. Includes SSO, admin dashboards, and data privacy agreements.
+#### [Lesson Planning](https://app.magicschool.ai/tools/lesson-plan-generator)
 
-## Ease of Use
+Generate a lesson plan based on a topic or learning objective and add additional criteria such as lesson length or information on pre-lecture assignments. The tool generates an editable lecture outline document with Learning Objective, Assessments (formative and summative), Key Points, and an outline of lesson structure. You are able to edit the document directly, edit your original prompt to regenerate all over again, or engage with a chat-like interface for refinements. Export to Word Document or Google Document is supported.
 
-MagicSchool is one of the most accessible AI tools for beginners. 
+#### [Group Work Generator](https://app.magicschool.ai/tools/group-work)
 
-*   **No Prompting Needed:** You don't need to know how to talk to a robot. You just fill out fields like "Grade Level," "Topic," and "Standards."
-*   **Guided Experience:** The interface is intuitive, looking more like a standard web form than a coding terminal.
-*   **Integration:** Integrates with Google Docs, Classroom, Canvas, and other LMS platforms.
+Generate group work activity for students by describing the topic or objective, the duration of class time available, and selecting the group size. The tool will brainstorm roles and instructions for structured group work activities.
 
-## Limitations & Best Practices
+!!! success "60-second Idea: Add Roles to Classroom Group Work"
 
-### Limitations
-*   **Knowledge Cutoffs:** Like all LLMs, it may not know about very recent events unless the specific tool utilizes web search.
-*   **Accuracy:** It can "hallucinate" or provide incorrect facts. Math capabilities can be inconsistent.
-*   **Generic Output:** Without specific inputs, the results can feel generic. The more detail you provide, the better the result.
+    Assigning roles to students in group work activities in class is [known to improve student learning experiences](https://cfe.unc.edu/wp-content/uploads/sites/326/2014/08/FYC23.pdf). Has coming up with roles and their instructions prevented you from trying role-based group work in the past?
 
-### Best Practices
-*   **The 80/20 Rule:** Let AI handle the heavy lifting (the first 80%), but always spend the last 20% editing, refining, and adding your personal voice.
-*   **Human in the Loop:** Never copy-paste directly to students without review.
-*   **Privacy First:** Even with privacy guarantees, avoid entering sensitive Personal Identifiable Information (PII) like student names or ID numbers into the forms.
+    Try out the Group Work tool with one of your unstructured discussion activities in class! It can help you brainstorm roles along with draft instructions for how to structure an activity.
 
+### Assignment Tools
+
+#### [Rubric Generator](https://app.magicschool.ai/tools/rubric-generator)
+
+Generate a custom grid-based rubric for any assignment. Specify your point scale, learning objective, assignment description (file upload, OneDrive upload, or copy/paste from Canvas are all supported), and additional customization. You can update these fields to regenerate with more specificity. For a visual demo, see the video linked above.
+
+#### [Multiple Choice Quiz / Assessment](https://app.magicschool.ai/tools/mc-assessment)
+
+Generate a multiple choice assessment, quiz, or test based on any topic or criteria. You provide the number of questions and description of assessment scope or upload a file, such as a PDF or word document. With a 75,000 word limit on input text, you can upload assigned academic papers or assigned readings for draft Guided Reading Questions. Answer keys are generated.
+
+#### [Worksheet Generator](https://app.magicschool.ai/tools/worksheet)
+
+Similar to the multiple choice tool, this tool generates a worksheet with fill-in-the-blank questions, multiple choice questions, and open-ended questions that can be used to brainstorm assignments. The worksheet can be edited directly as a document or you can give feedback or requested edits via a chat interface, for example "draft a few more challenging open ended questions that engage with the ethical concerns of this topic." Worksheets can be exported to Word or Google Docs.
+
+## Cost
+
+MagicSchool is a commercial tool that UNC does not have a site license to. However, it is free for general usage with reasonable limits on the number of generations used per day. For unlimited generations per day, the cost is $12.99 per month or $100 per year.
