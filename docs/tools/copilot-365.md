@@ -1,8 +1,8 @@
 # Copilot365 Teaching Tools
 
-| UNC Supported | Cost | Time to Setup | Shortcut | Data Protection |
-|---------------|------|------|---------------|-----------------|
-| Yes | Free | < 1 minute | [m365.cloud.microsoft/teach](https://m365.cloud.microsoft/teach) | ==Tier 2 (FERPA)== |
+|Applications| UNC Supported | Cost | Time to Setup | Shortcut | Data Protection |
+|---|---------------|------|------|---------------|-----------------|
+| Lesson Planning<br>Rubrics  |Yes | Free | < 1 minute | [m365.cloud.microsoft/teach](https://m365.cloud.microsoft/teach) | ==Tier 2 (FERPA)== |
 
 <img src="../copilot/teach.png" width="250px" alt="Teach Sidebar in Microsoft Copilot 365" style="float: right; margin-right: 16px">
 

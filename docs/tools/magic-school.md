@@ -1,8 +1,8 @@
 # MagicSchool.ai
 
-| UNC Supported | Cost | Time to Setup | Shortcut | UNC Data Protection |
-|---------------|------|------|---------------|-----------------|
-| No | Free for Basic Use,<br>$100/yr for Heavy Use | 5 - 10 minutes | [magicschool.ai](https://magicschool.ai) | No |
+| Applications | Cost | Time to Setup | Shortcut | UNC Data Protection |
+|-------|------|------|---------------|-----------------|
+| Lesson Planning<br>Group Work<br>Rubric<br>Worksheets  | Free for Basic Use,<br>$100/yr for Heavy Use | 5 - 10 minutes | [magicschool.ai](https://magicschool.ai) | No |
 
 
 Magic School is a collection of AI-powered tools for educators. Each tool has simple input forms to structure the workflow, unlike AI chats where you need to detailed prompts from scratch.  
