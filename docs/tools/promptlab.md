@@ -1,6 +1,6 @@
 # PromptLab
 
-##### Last Updated: March 5th, 2026
+_Last Updated: March 5th, 2026_
 
 | Applications | UNC Supported | Cost | Time to Setup | Shortcut | FERPA Data |
 |-------|---------------|------|------|---------------|-----------------|

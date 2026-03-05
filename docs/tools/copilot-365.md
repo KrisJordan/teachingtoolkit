@@ -1,5 +1,7 @@
 # Copilot365 Teaching Tools
 
+_Last Updated: March 5th, 2026_
+
 |Applications| UNC Supported | Cost | Time to Setup | Shortcut | FERPA Data |
 |---|---------------|------|------|---------------|-----------------|
 | Lesson Planning<br>Rubrics  |Yes | Free | < 1 minute | [m365.cloud.microsoft/teach](https://m365.cloud.microsoft/teach) | [Yes](data-privacy.md){ title="Approved for FERPA and sensitive student data." } |

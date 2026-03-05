@@ -1,5 +1,7 @@
 # MagicSchool.ai
 
+_Last Updated: March 5th, 2026_
+
 | Applications | Cost | Time to Setup | Shortcut | FERPA Data |
 |-------|------|------|---------------|-----------------|
 | Lesson Planning<br>Group Work<br>Rubric<br>Worksheets  | Free for Basic Use,<br>$100/yr for Heavy Use | 5 - 10 minutes | [magicschool.ai](https://magicschool.ai) | [No](data-privacy.md){ title="Do not use for sensitive data or student information." }  
