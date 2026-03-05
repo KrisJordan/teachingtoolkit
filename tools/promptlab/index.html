@@ -1,0 +1,709 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Resources and tools for UNC instructors throughout the teaching lifecycle">
+      
+      
+      
+        <link rel="canonical" href="https://krisjordan.github.io/teachingtoolkit/tools/promptlab/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>PromptLab - UNC Teaching Toolkit</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M22%2012a10%2010%200%200%201-10%2010A10%2010%200%200%201%202%2012%2010%2010%200%200%201%2012%202a10%2010%200%200%201%2010%2010M6%2013h8l-3.5%203.5%201.42%201.42L17.84%2012l-5.92-5.92L10.5%207.5%2014%2011H6z%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#promptlab" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="UNC Teaching Toolkit" class="md-header__button md-logo" aria-label="UNC Teaching Toolkit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UNC Teaching Toolkit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              PromptLab
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="UNC Teaching Toolkit" class="md-nav__button md-logo" aria-label="UNC Teaching Toolkit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
+
+    </a>
+    UNC Teaching Toolkit
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#demonstration-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstration Video
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-features-for-instructors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Features for Instructors
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Key Features for Instructors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#chat-with-leading-ai-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chat with Leading AI Models
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-custom-agents-no-code-required" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Build Custom Agents (No Code Required)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#share-agents-with-students" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Share Agents with Students
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upload-files-for-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Upload Files for Context
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ideas-for-instructors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ideas for Instructors
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ideas for Instructors">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#create-a-structured-study-partner" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Create a Structured Study Partner
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#draft-and-compare-with-multiple-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Draft and Compare with Multiple Models
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#promptlab-vs-other-ai-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PromptLab vs. Other AI Tools
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learn-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learn More
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="promptlab">PromptLab<a class="headerlink" href="#promptlab" title="Permanent link">&para;</a></h1>
+<p><em>Last Updated: March 5th, 2026</em></p>
+<table>
+<thead>
+<tr>
+<th>Applications</th>
+<th>UNC Supported</th>
+<th>Cost</th>
+<th>Time to Setup</th>
+<th>Shortcut</th>
+<th>FERPA Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AI Chat<br>Agents<br>Multi-model Chat</td>
+<td>Yes</td>
+<td>Free</td>
+<td>&lt; 1 minute</td>
+<td><a href="https://promptlab.lib.unc.edu">promptlab.lib.unc.edu</a></td>
+<td><a href="../data-privacy/" title="Public and internal draft data only. No student grades or FERPA data.">No<br>Tier 1 Only</a></td>
+</tr>
+</tbody>
+</table>
+<p>PromptLab is UNC's AI chat platform, supported by the <a href="https://library.unc.edu/ai/library-ai-studio/">Library AI Studio</a>. It gives all Carolina instructors and students free access to leading AI models from OpenAI, Anthropic, Google, and Meta in a single interface. Your data is not shared with external providers and is not used to train public AI models.</p>
+<p>The standout feature for instructors is the ability to build <strong>custom AI agents</strong>, no programming required, and share them directly with students. However, this feature does not yet scale to large enrollment courses as students need to be added one-by-one. The staff at LibraryAI Studio are working to improve this.</p>
+<h2 id="demonstration-video">Demonstration Video<a class="headerlink" href="#demonstration-video" title="Permanent link">&para;</a></h2>
+<p>For a quick overview of PromptLab and how UNC faculty can use it, this 3-minute demonstration walks you through the platform and shows how to build a simple course agent.</p>
+<div class="video-container">
+  <iframe 
+    src="https://www.youtube.com/embed/PLACEHOLDER" 
+    title="PromptLab 3-minute Demo"
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Go to <a href="https://promptlab.lib.unc.edu">promptlab.lib.unc.edu</a></li>
+<li>Select <strong>Continue with ONYEN</strong> and sign in</li>
+</ol>
+<h2 id="key-features-for-instructors">Key Features for Instructors<a class="headerlink" href="#key-features-for-instructors" title="Permanent link">&para;</a></h2>
+<h3 id="chat-with-leading-ai-models">Chat with Leading AI Models<a class="headerlink" href="#chat-with-leading-ai-models" title="Permanent link">&para;</a></h3>
+<p>PromptLab provides access to models from OpenAI (ChatGPT 5 series), Anthropic (Claude), Google (Gemini), Meta (Llama), and Mistral all in one place. Switch between models with a single click using the model selector in the top-left corner.</p>
+<p><strong>Why does having multiple models matter for teaching?</strong></p>
+<p>Having access to different AI models, particularly different <em>sizes</em> of models, offers excellent, hands-on ways to demonstrate to students how generative AI actually works and where it fails:</p>
+<ul>
+<li><strong>Illustrating AI Pitfalls:</strong> Smaller models, like ChatGPT nano or Llama 17b, are much more likely to reach the "edges" of their knowledge quickly. Because of this, they are far more prone to "hallucinations" (inventing false information) and demonstrating the risks inherent in generative AI. Many of the pitfalls of relying on AI are best illustrated with these smaller models because their flaws show up much sooner and more obviously than in massive, advanced models.</li>
+<li><strong>Time vs. Quality Trade-offs:</strong> You can easily demonstrate the trade-off between response time and response quality. Smaller models reply almost instantly but can lack deep reasoning, while larger models take more time to process but offer much higher quality outputs.</li>
+<li><strong>Comparing Perspectives:</strong> PromptLab supports <strong>multi-model conversations</strong> where two models respond side by side. This lets you and your students compare how different models interpret and answer the exact same prompt, highlighting their different biases and analytical approaches.</li>
+</ul>
+<h3 id="build-custom-agents-no-code-required">Build Custom Agents (No Code Required)<a class="headerlink" href="#build-custom-agents-no-code-required" title="Permanent link">&para;</a></h3>
+<p>An agent is a custom AI assistant with its own instructions, persona, and optional knowledge base. You configure it through a simple form.</p>
+<p>To create an agent:</p>
+<ol>
+<li>Open the <strong>Agent Builder</strong> in the right-hand panel</li>
+<li>Give it a name and a description</li>
+<li>Write instructions telling it how to behave</li>
+<li>Choose which AI model it should use</li>
+<li>Optionally attach files (syllabus, rubric, readings) as background knowledge</li>
+<li>Click <strong>Create</strong></li>
+</ol>
+<p>For example, you could build a "Study Partner" agent that knows your course syllabus, answers questions in the tone you set, and redirects students to campus resources when appropriate.</p>
+<div class="admonition success">
+<p class="admonition-title">60-second Idea: Build a Course FAQ Agent</p>
+<p>Tired of answering the same student questions about grading policies and office hours? Upload your syllabus as <strong>File Context</strong> in an agent, give it instructions like "Answer student questions about this course based on the attached syllabus. Be helpful and concise. If you don't know the answer, tell the student to email a TA or instructor." Share it with your students and point them to it for quick answers.</p>
+</div>
+<h3 id="share-agents-with-students">Share Agents with Students<a class="headerlink" href="#share-agents-with-students" title="Permanent link">&para;</a></h3>
+<p>Once you build an agent, you can share it directly with students by their ONYEN:</p>
+<ol>
+<li>Open the agent in the <strong>Agent Builder</strong></li>
+<li>Click the <strong>Share</strong> icon</li>
+<li>Search for students and assign <strong>Viewer</strong> permission</li>
+<li>Students will see the agent in their <strong>Agent Marketplace</strong></li>
+</ol>
+<p>Students who have signed in to PromptLab can then use your agent for structured, course-specific AI support that aligns with your teaching goals.</p>
+<div class="admonition info">
+<p class="admonition-title">Sharing Limitation</p>
+<p>Agents cannot be shared publicly with "everyone." You must share with specific ONYENs, and those users must have signed in to PromptLab at least once.</p>
+</div>
+<h3 id="upload-files-for-context">Upload Files for Context<a class="headerlink" href="#upload-files-for-context" title="Permanent link">&para;</a></h3>
+<p>You can upload documents, including PDFs, Word files, and images, into a conversation or into an agent's knowledge base.</p>
+<div class="admonition warning">
+<p class="admonition-title">PromptLab cannot be used with FERPA protected data</p>
+<p><strong>Do not enter FERPA-protected student records, grades, or other confidential data.</strong> For tasks involving student grades or FERPA data, use <a href="../copilot-365/">Copilot 365</a> instead.PromptLab is approved for <a href="../data-privacy/">publicly available (Tier 0) and low-sensitivity business information (Tier 1)</a>. </p>
+</div>
+<h2 id="ideas-for-instructors">Ideas for Instructors<a class="headerlink" href="#ideas-for-instructors" title="Permanent link">&para;</a></h2>
+<h3 id="create-a-structured-study-partner">Create a Structured Study Partner<a class="headerlink" href="#create-a-structured-study-partner" title="Permanent link">&para;</a></h3>
+<p>Build an agent loaded with your course readings and lecture notes. Instruct it to quiz students using the Socratic method rather than giving direct answers. Students get on-demand practice with material you control.</p>
+<h3 id="draft-and-compare-with-multiple-models">Draft and Compare with Multiple Models<a class="headerlink" href="#draft-and-compare-with-multiple-models" title="Permanent link">&para;</a></h3>
+<p>Use multi-model conversations to draft a rubric or lesson plan with two different AI models at once. Compare the outputs side by side and pick the best elements from each.</p>
+<h2 id="promptlab-vs-other-ai-tools">PromptLab vs. Other AI Tools<a class="headerlink" href="#promptlab-vs-other-ai-tools" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>PromptLab</th>
+<th><a href="../copilot-365/">Copilot 365</a></th>
+<th><a href="../magic-school/">MagicSchool</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UNC Supported</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>Free</td>
+<td>Free</td>
+<td>Free (limited)</td>
+</tr>
+<tr>
+<td>FERPA Data</td>
+<td>No</td>
+<td><mark>Yes</mark></td>
+<td>No</td>
+</tr>
+<tr>
+<td>Multiple AI Models</td>
+<td>Yes</td>
+<td>Microsoft only</td>
+<td>One model</td>
+</tr>
+<tr>
+<td>Custom Agents</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr>
+<td>File Upload</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Form-based Tools</td>
+<td>No (chat-based)</td>
+<td>Yes (Teach tools)</td>
+<td>Yes (50+ generators)</td>
+</tr>
+<tr>
+<td>Shareable with Students</td>
+<td>Yes (agents)</td>
+<td>No</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cost">Cost<a class="headerlink" href="#cost" title="Permanent link">&para;</a></h2>
+<p>PromptLab is free for all UNC affiliates with an ONYEN. It is supported by UNC Libraries and funded by the AI Acceleration Program (AIAP).</p>
+<h2 id="learn-more">Learn More<a class="headerlink" href="#learn-more" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://guides.lib.unc.edu/promptlab">PromptLab LibGuide</a> — Full documentation from UNC Libraries</li>
+<li><a href="https://uncch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f8566c93-bdd8-4339-8a29-b3e00119badf">PromptLab Workshop Recording</a> — Hands-on demonstration</li>
+<li><a href="https://library.unc.edu/ai/library-ai-studio/">Library AI Studio</a> — Contact for questions or consultations</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <div class="md-footer">
+  <div class="md-footer__inner">
+    <div class="md-footer-nav">
+      <p>
+        UNC Teaching Toolkit — &copy; 2026 The University of North Carolina at Chapel Hill
+      </p>
+    </div>
+  </div>
+</div>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": {"AI": "ai", "Assessment": "assessment", "Canvas": "canvas", "New": "new", "Video": "video"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
