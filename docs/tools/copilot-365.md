@@ -1,8 +1,8 @@
 # Copilot365 Teaching Tools
 
-|Applications| UNC Supported | Cost | Time to Setup | Shortcut | Data Protection |
+|Applications| UNC Supported | Cost | Time to Setup | Shortcut | FERPA Data |
 |---|---------------|------|------|---------------|-----------------|
-| Lesson Planning<br>Rubrics  |Yes | Free | < 1 minute | [m365.cloud.microsoft/teach](https://m365.cloud.microsoft/teach) | ==Tier 2 (FERPA)== |
+| Lesson Planning<br>Rubrics  |Yes | Free | < 1 minute | [m365.cloud.microsoft/teach](https://m365.cloud.microsoft/teach) | [Yes](data-privacy.md){ title="Approved for FERPA and sensitive student data." } |
 
 <img src="../copilot/teach.png" width="250px" alt="Teach Sidebar in Microsoft Copilot 365" style="float: right; margin-right: 16px">
 

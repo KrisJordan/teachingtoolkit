@@ -1,8 +1,9 @@
 # MagicSchool.ai
 
-| Applications | Cost | Time to Setup | Shortcut | UNC Data Protection |
+| Applications | Cost | Time to Setup | Shortcut | FERPA Data |
 |-------|------|------|---------------|-----------------|
-| Lesson Planning<br>Group Work<br>Rubric<br>Worksheets  | Free for Basic Use,<br>$100/yr for Heavy Use | 5 - 10 minutes | [magicschool.ai](https://magicschool.ai) | No |
+| Lesson Planning<br>Group Work<br>Rubric<br>Worksheets  | Free for Basic Use,<br>$100/yr for Heavy Use | 5 - 10 minutes | [magicschool.ai](https://magicschool.ai) | [No](data-privacy.md){ title="Do not use for sensitive data or student information." }  
+Not UNC-approved for FERPA |
 
 
 Magic School is a collection of AI-powered tools for educators. Each tool has simple input forms to structure the workflow, unlike AI chats where you need to detailed prompts from scratch.  
