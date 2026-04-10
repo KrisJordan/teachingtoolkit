@@ -16,7 +16,7 @@ For a quick overview of NotebookLM and how UNC instructors can use it, this demo
 
 <div class="video-container">
   <iframe 
-    src="https://www.youtube.com/embed/2emH0zrjwjU" 
+    src="https://www.youtube.com/embed/zQn5PiRG_ys"
     title="NotebookLM for Instructors Demo"
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
