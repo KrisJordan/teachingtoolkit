@@ -1,0 +1,630 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Resources and tools for UNC instructors throughout the teaching lifecycle">
+      
+      
+      
+        <link rel="canonical" href="https://krisjordan.github.io/teachingtoolkit/tools/notebooklm/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>NotebookLM (Google) - UNC Teaching Toolkit</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+  
+  
+  
+  
+  <style>:root{--md-annotation-icon:url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M22%2012a10%2010%200%200%201-10%2010A10%2010%200%200%201%202%2012%2010%2010%200%200%201%2012%202a10%2010%200%200%201%2010%2010M6%2013h8l-3.5%203.5%201.42%201.42L17.84%2012l-5.92-5.92L10.5%207.5%2014%2011H6z%22/%3E%3C/svg%3E');}</style>
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#notebooklm-google" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="UNC Teaching Toolkit" class="md-header__button md-logo" aria-label="UNC Teaching Toolkit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UNC Teaching Toolkit
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              NotebookLM (Google)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="UNC Teaching Toolkit" class="md-nav__button md-logo" aria-label="UNC Teaching Toolkit" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
+
+    </a>
+    UNC Teaching Toolkit
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#demonstration-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Demonstration Video
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Getting Started
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-instructors-find-it-useful" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Instructors Find It Useful
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why Instructors Find It Useful">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#it-shows-its-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        It Shows Its Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#it-scopes-to-your-documents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        It Scopes to Your Documents
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-cases-for-teaching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use Cases for Teaching
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Use Cases for Teaching">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#course-prep-and-instructional-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Course Prep and Instructional Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#research-and-literature-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Research and Literature Review
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#student-facing-study-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Student-Facing Study Support
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Data Privacy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cost
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#learn-more" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Learn More
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="notebooklm-google">NotebookLM (Google)<a class="headerlink" href="#notebooklm-google" title="Permanent link">&para;</a></h1>
+<p><em>Last Updated: April 2026</em></p>
+<table>
+<thead>
+<tr>
+<th>Applications</th>
+<th>UNC Supported</th>
+<th>Cost, Time to Setup</th>
+<th>Shortcut</th>
+<th>FERPA Data</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Document Q&amp;A<br>Study Guides<br>Flashcards &amp; Quizzes</td>
+<td>No</td>
+<td>Free<br>&lt; 5 minutes</td>
+<td><a href="https://notebooklm.google/">notebooklm.google</a></td>
+<td><a href="../data-privacy/" title="Do not use for sensitive data or student information.">No</a></td>
+</tr>
+</tbody>
+</table>
+<p>NotebookLM is Google's AI research tool that answers questions <strong>using the documents you upload</strong>. Unlike a general-purpose chatbot, NotebookLM is "source-grounded." It reads the  files you upload and its responses come from that material with inline citations to your documents you can click to verify.</p>
+<p>This matters for instructors because NotebookLM it reduces the likelihood of hallucinations and simplifies verification. Every response is traceable back to a specific passage in a specific document you provided. If the answer is not in your sources, it will tell you.</p>
+<h2 id="demonstration-video">Demonstration Video<a class="headerlink" href="#demonstration-video" title="Permanent link">&para;</a></h2>
+<p>For a quick overview of NotebookLM and how UNC instructors can use it, this demonstration walks through uploading course materials and asking questions that generate useful teaching artifacts.</p>
+<div class="video-container">
+  <iframe 
+    src="https://www.youtube.com/embed/zQn5PiRG_ys"
+    title="NotebookLM for Instructors Demo"
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+<h2 id="getting-started">Getting Started<a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Go to <a href="https://notebooklm.google/">notebooklm.google</a></li>
+<li>Sign in with your Google account</li>
+<li>Click <strong>New Notebook</strong></li>
+<li>Upload your sources: PDFs, Google Docs, Google Slides, web URLs, YouTube links, Word documents, or audio files</li>
+<li>Start asking questions in the chat panel</li>
+</ol>
+<p>Each notebook supports up to <strong>50 sources</strong>, and each source can be up to <strong>500,000 words</strong> or 200MB. (For reference, the complete series of seven Harry Potter books is about 1,000,000 words.) You can select or deselect individual sources to control which documents the AI draws from for a given question.</p>
+<div class="admonition success">
+<p class="admonition-title">60-second Idea: Syllabus Quiz Questions</p>
+<p>Assigning an asynchronous 'Syllabus Quiz' at the start of the semester, via Canvas or Gradescope, is a common practice among instructors to ensure students read and understand of a course's most important policies. Try uploading your syllabus to NotebookLM and prompt: 'Please generate a syllabus quiz suitable for Canvas/Gradescope that covers the most important policies of my course.'</p>
+</div>
+<h2 id="why-instructors-find-it-useful">Why Instructors Find It Useful<a class="headerlink" href="#why-instructors-find-it-useful" title="Permanent link">&para;</a></h2>
+<h3 id="it-shows-its-work">It Shows Its Work<a class="headerlink" href="#it-shows-its-work" title="Permanent link">&para;</a></h3>
+<p>Every response includes <strong>inline citations.</strong> The citations link directly to the quoted passage in your source material. Hover over a citation to see the full quote. Click it to jump to the location in the original document.</p>
+<p>This is not a summary pulled from the internet. It is a reference to your material, and you can verify it in seconds.</p>
+<h3 id="it-scopes-to-your-documents">It Scopes to Your Documents<a class="headerlink" href="#it-scopes-to-your-documents" title="Permanent link">&para;</a></h3>
+<p>NotebookLM does not search the web for additional sources without your asking it to. It  aims to avoid making statements from a general training dataset when answering your questions. If you upload three research papers, it frames its responses to those three papers. This constraint is what makes it more trustworthy for instructional work: the AI avoids introducing outside information or fabricated sources.</p>
+<h2 id="use-cases-for-teaching">Use Cases for Teaching<a class="headerlink" href="#use-cases-for-teaching" title="Permanent link">&para;</a></h2>
+<h3 id="course-prep-and-instructional-design">Course Prep and Instructional Design<a class="headerlink" href="#course-prep-and-instructional-design" title="Permanent link">&para;</a></h3>
+<p>Upload your syllabus, lecture slides, and assigned readings into a single notebook. Then ask NotebookLM to help you work with that material:</p>
+<ul>
+<li>"Help me brainstorm discussion questions based on the Brooks chapter 2 reading."</li>
+<li>"Draft some open ended questions that explore the key tensions between these two readings."</li>
+</ul>
+<h3 id="research-and-literature-review">Research and Literature Review<a class="headerlink" href="#research-and-literature-review" title="Permanent link">&para;</a></h3>
+<p>If you or your students are working with a collection of research papers, NotebookLM is valuable for synthesis:</p>
+<ul>
+<li>Upload multiple papers and ask "Summarize the methodology used across these studies."</li>
+<li>Ask "Which of these sources provides the strongest evidence for X?"</li>
+<li>Use <strong>Source Discovery</strong> to search the web or Google Drive for additional sources directly within the notebook.</li>
+<li>Use <strong>Deep Research</strong> to have NotebookLM automatically browse hundreds of websites and compile a multi-page report with cited sources.</li>
+</ul>
+<div class="admonition success">
+<p class="admonition-title">60-second Idea: Practice Information Literacy with Citations</p>
+<p>Have students upload a set of sources into NotebookLM and ask it a research question. Then ask them to verify each inline citation by clicking through to the original passage. This is a practical exercise in evaluating AI-generated claims — students learn to check whether a citation actually supports the statement it's attached to.</p>
+</div>
+<h3 id="student-facing-study-support">Student-Facing Study Support<a class="headerlink" href="#student-facing-study-support" title="Permanent link">&para;</a></h3>
+<p>Unfortunately, without an institutional partnership and single sign-on, you cannot easily share a Notebook with students other than adding their personal GMail accounts. This is discouraged.</p>
+<p>Students can independently create their own notebooks, though, add course materials, and ask their own questions and get answers grounded in the material you assign. This is especially useful for:</p>
+<ul>
+<li>Exam review: students ask questions about readings and get cited answers</li>
+<li>Concept clarification: students ask for alternative explanations of dense material</li>
+<li>Self-testing: students generate flashcards or quizzes on demand</li>
+</ul>
+<h2 id="data-privacy">Data Privacy<a class="headerlink" href="#data-privacy" title="Permanent link">&para;</a></h2>
+<p><strong>NotebookLM is not approved for FERPA-protected data.</strong> Do not upload student grades, identifiable student work, or other confidential records. For tasks involving FERPA data, use <a href="../copilot-365/">Copilot 365</a>.</p>
+<p>Your sources and chat history are private to you and not visible to other users unless you explicitly share your notebook with them.</p>
+<p>NotebookLM does <strong>not</strong> use your uploaded content to train AI models unless you provide thumbs-up or thumbs-down feedback on a response. When feedback is provided, Google may review the content associated with that feedback for product improvement.</p>
+<h2 id="cost">Cost<a class="headerlink" href="#cost" title="Permanent link">&para;</a></h2>
+<p>NotebookLM is free with any Google account. The free tier includes up to 50 sources per notebook with standard generation limits for flashcards, quizzes, and other artifacts. <a href="https://notebooklm.google/plans">Paid tiers</a> are available, but the free tier is sufficient for most instructional uses.</p>
+<h2 id="learn-more">Learn More<a class="headerlink" href="#learn-more" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://support.google.com/notebooklm">NotebookLM Help Center</a> — Official documentation from Google</li>
+<li><a href="https://notebooklm.google/">NotebookLM Home</a> — Product overview and getting started</li>
+<li><a href="https://support.google.com/notebooklm/answer/17004255">Privacy and Terms of Use</a> — Data handling policies</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <div class="md-footer">
+  <div class="md-footer__inner">
+    <div class="md-footer-nav">
+      <p>
+        UNC Teaching Toolkit — &copy; 2026 The University of North Carolina at Chapel Hill
+      </p>
+    </div>
+  </div>
+</div>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.copy", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": {"AI": "ai", "Assessment": "assessment", "Canvas": "canvas", "New": "new", "Video": "video"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
