@@ -1,6 +1,6 @@
 # MagicSchool.ai
 
-_Last Updated: March 5th, 2026_
+_Last Updated: April 2026_
 
 | Applications | Cost | Time to Setup | Shortcut | FERPA Data |
 |-------|------|------|---------------|-----------------|

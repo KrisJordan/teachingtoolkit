@@ -1,6 +1,6 @@
 # Copilot365 Teaching Tools
 
-_Last Updated: March 5th, 2026_
+_Last Updated: April 2026_
 
 |Applications| UNC Supported | Cost | Time to Setup | Shortcut | FERPA Data |
 |---|---------------|------|------|---------------|-----------------|

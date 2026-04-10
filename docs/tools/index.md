@@ -42,6 +42,7 @@ Practical guides for the tools and technologies that support teaching at UNC. Ea
 ### Assessment
 
 - [Canvas Quizzes & Exams](canvas-tips.md)
+- [Gradescope AI-Assisted Grading](gradescope.md)
 - [AI-Assisted Feedback](ai/index.md)
 - Rubric design (coming soon)
 

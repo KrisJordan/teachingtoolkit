@@ -1,6 +1,6 @@
 # PromptLab
 
-_Last Updated: March 5th, 2026_
+_Last Updated: April 2026_
 
 | Applications | UNC Supported | Cost | Time to Setup | Shortcut | FERPA Data |
 |-------|---------------|------|------|---------------|-----------------|
@@ -94,19 +94,6 @@ Build an agent loaded with your course readings and lecture notes. Instruct it t
 ### Draft and Compare with Multiple Models
 
 Use multi-model conversations to draft a rubric or lesson plan with two different AI models at once. Compare the outputs side by side and pick the best elements from each.
-
-## PromptLab vs. Other AI Tools
-
-| Feature | PromptLab | [Copilot 365](copilot-365.md) | [MagicSchool](magic-school.md) |
-|---------|-----------|-------------|-------------|
-| UNC Supported | Yes | Yes | No |
-| Cost | Free | Free | Free (limited) |
-| FERPA Data | No | ==Yes== | No |
-| Multiple AI Models | Yes | Microsoft only | One model |
-| Custom Agents | Yes | No | No |
-| File Upload | Yes | Yes | Yes |
-| Form-based Tools | No (chat-based) | Yes (Teach tools) | Yes (50+ generators) |
-| Shareable with Students | Yes (agents) | No | No |
 
 ## Cost
 

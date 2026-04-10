@@ -95,8 +95,8 @@ hide:
         - [Copilot Studio](./)
     - [Canvas](./)
         - [AI Discussion Moderation](./)
-    - [Gradescope](./)
-        - [AI Grading](./)
+    - [Gradescope](./tools/gradescope.md)
+        - [AI Grading](./tools/gradescope.md#ai-assisted-grading-and-answer-groups)
     - [Panopto](./)
         - [AI Search](./)
     - [Zoom](./)
@@ -114,7 +114,7 @@ hide:
         - [Gemini]()
         - [ChatGPT]()
         - [Claude]()
-        - [NotebookLM]()
+        - [NotebookLM](./tools/notebooklm.md)
 
 -   :material-beaker:{ .lg .middle } **Research and Experimental**
 
