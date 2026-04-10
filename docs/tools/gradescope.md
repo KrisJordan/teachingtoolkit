@@ -28,6 +28,20 @@ For a quick overview of Gradescope's AI-assisted grading workflow, this demonstr
   </iframe>
 </div>
 
+## Getting Started
+
+UNC's integration with Gradescope simplifies adopting it in courses and ensures your enrolled students have direct access via Canvas.
+
+1. Associate Gradescope with your course via Canvas:
+    1. Course Settings
+    2. Navigation
+    3. Find Gradescope 1.3, click the three dots, select "Enable"
+2. Navigate to Gradescope from within Canvas
+    1. The first time you do this you will be asked to create a Gradescope course
+    2. Subsequent visits will take you to the Gradescope dashboard
+3. See Gradescope's [instructions for getting started](https://www.gradescope.com/get_started).
+
+
 ## AI-Assisted Grading and Answer Groups
 
 ### What Answer Grouping Does
@@ -99,19 +113,6 @@ This matters because the grouped grading workflow often reveals patterns quickly
 - Which concept needs to be retaught next class
 
 That makes Gradescope useful not just for grading faster, but for adjusting instruction sooner.
-
-## Getting Started
-
-UNC's integration with Gradescope makes it easy to get started with the tool and ensure your enrolled students have access via Canvas.
-
-1. Associate Gradescope with your course via Canvas:
-    a. Course Settings
-    b. Navigation
-    c. Find Gradescope 1.3, click the three dots, select "Enable"
-2. Navigate to Gradescope from within Canvas
-    a. The first time you do this you will be asked to create a Gradescope course
-    b. Subsequent visits will take you to the Gradescope dashboard
-3. See Gradescope's [instructions for getting started](https://www.gradescope.com/get_started).
 
 ## Data Privacy
 
