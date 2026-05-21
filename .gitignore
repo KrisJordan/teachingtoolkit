@@ -5,6 +5,9 @@ build/
 dist/
 wheels/
 *.egg-info
+site
+screenshots
+.mkdocs-serve.log
 
 # Virtual environments
 .venv

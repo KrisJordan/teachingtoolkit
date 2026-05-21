@@ -6,6 +6,20 @@ Practical guides for the tools and technologies that support teaching at UNC. Ea
 
 <div class="quick-links" markdown>
 
+  <a href="ai-tool-overview/" class="quick-link-card" markdown>
+
+  ### :material-table-large: AI Tool Finder
+  Compare instructor-facing AI tools by task, setup, and data sensitivity
+
+  </a>
+
+  <a href="ai-tool-directory/" class="quick-link-card" markdown>
+
+  ### :material-format-list-group: AI Tool Directory
+  Browse AI tools by UNC support, activity type, FERPA tier, and training protection
+
+  </a>
+
   <a href="ai/" class="quick-link-card" markdown>
 
   ### :material-robot: AI for Teaching
@@ -42,6 +56,8 @@ Practical guides for the tools and technologies that support teaching at UNC. Ea
 ### Assessment
 
 - [Canvas Quizzes & Exams](canvas-tips.md)
+- [AI Tool Finder for Instructors](ai-tool-overview.md)
+- [AI Tool Directory](ai-tool-directory.md)
 - [Gradescope AI-Assisted Grading](gradescope.md)
 - [AI-Assisted Feedback](ai/index.md)
 - Rubric design (coming soon)

@@ -12,3 +12,15 @@ uv --version
 uv venv --clear
 
 uv sync --dev
+
+# ---------------------------------------------------------------------------
+# Playwright — required by the playwright-visual-testing skill
+# ---------------------------------------------------------------------------
+
+# Install the Playwright Node.js package globally so `playwright` CLI and
+# the `run_playwright_code` / `screenshot_page` agent tools can use it.
+npm install -g playwright
+
+# Install Chromium browser binary and all required OS-level dependencies.
+# --with-deps handles system packages (fonts, libs) on Debian/Ubuntu images.
+npx playwright install --with-deps chromium
