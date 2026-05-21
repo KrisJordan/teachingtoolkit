@@ -1,0 +1,1013 @@
+/* UNC Carolina Blue Theme */
+:root {
+  --md-primary-fg-color: #4B9CD3;
+  --md-primary-fg-color--light: #7DB9E3;
+  --md-primary-fg-color--dark: #13294B;
+  --md-accent-fg-color: #13294B;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #4B9CD3;
+  --md-primary-fg-color--light: #7DB9E3;
+  --md-primary-fg-color--dark: #13294B;
+  --md-accent-fg-color: #7DB9E3;
+}
+
+/* New badge styling */
+.md-tag[data-md-tag="new"] {
+  background-color: #E84A27;
+  color: white;
+}
+
+/* Faculty spotlight card styling */
+.spotlight-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.spotlight-card img {
+  border-radius: 50%;
+  max-width: 150px;
+  float: left;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Video container for responsive embeds */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Checklist styling */
+.checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checklist li {
+  padding: 0.5rem 0;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.checklist li::before {
+  content: "☐";
+  position: absolute;
+  left: 0;
+  color: var(--md-primary-fg-color);
+  font-size: 1.2em;
+}
+
+/* Quick links grid */
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.quick-link-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.quick-link-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+.quick-link-card h3 {
+  margin-top: 0;
+  color: var(--md-primary-fg-color);
+}
+
+/* Tip submission styling */
+.tip-box {
+  background: linear-gradient(135deg, var(--md-primary-fg-color--light) 0%, var(--md-primary-fg-color) 100%);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+.tip-box a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Timeline styling for lifecycle pages */
+.timeline-item {
+  border-left: 3px solid var(--md-primary-fg-color);
+  padding-left: 1.5rem;
+  margin-left: 0.5rem;
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 0;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--md-primary-fg-color);
+}
+
+.timeline-item:last-child {
+  border-left: 3px solid transparent;
+}
+
+/* Custom grid columns */
+@media screen and (min-width: 60em) {
+  .md-typeset .grid.cards.three-columns {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Reduce spacing inside list-based cards so children sit closer to their parent */
+.md-typeset .grid.cards li > ul,
+.md-typeset .grid.cards li > ol {
+  margin-top: 0.00rem;
+  margin-bottom: 0.00rem;
+  padding-left: 0.75rem;
+}
+
+.md-typeset .grid.cards li li {
+  margin: 0.0rem 0;
+}
+
+.md-typeset .grid.cards li p {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+/* Highlighted text using ==highlight== (pymdownx.mark) */
+mark {
+  background-color: #fff59d; /* pale yellow */
+  padding: 0.05em 0.2em;
+  border-radius: 3px;
+}
+
+[data-md-color-scheme="slate"] mark {
+  background-color: rgba(255, 213, 79, 0.18);
+}
+
+/* Instructor tool overview page */
+.tool-chooser-list {
+  margin: 1.25rem 0 1.75rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  background:
+    linear-gradient(180deg, rgba(75, 156, 211, 0.06) 0%, rgba(75, 156, 211, 0.02) 100%),
+    var(--md-default-bg-color);
+}
+
+.tool-comparison-table {
+  margin: 1rem 0 2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 12px;
+  overflow-x: auto;
+}
+
+.tool-comparison-table table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.tool-comparison-table-compact {
+  font-size: 0.82rem;
+}
+
+.tool-comparison-table thead th {
+  background: rgba(75, 156, 211, 0.12);
+  color: var(--md-default-fg-color);
+  font-weight: 700;
+  vertical-align: top;
+}
+
+.tool-comparison-table th,
+.tool-comparison-table td {
+  padding: 0.7rem 0.65rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+
+.tool-comparison-table tbody tr:nth-child(even) {
+  background: rgba(19, 41, 75, 0.03);
+}
+
+[data-md-color-scheme="slate"] .tool-comparison-table tbody tr:nth-child(even) {
+  background: rgba(125, 185, 227, 0.05);
+}
+
+.status-check {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.45rem;
+  height: 1.45rem;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.status-check.yes {
+  background: rgba(46, 125, 50, 0.12);
+  color: #226227;
+}
+
+.status-check.no {
+  background: rgba(230, 81, 0, 0.12);
+  color: #a84300;
+}
+
+.status-check.unknown {
+  background: rgba(245, 124, 0, 0.14);
+  color: #9a4f00;
+}
+
+[data-md-color-scheme="slate"] .status-check.yes {
+  color: #9fe3a5;
+}
+
+[data-md-color-scheme="slate"] .status-check.no {
+  color: #ffb680;
+}
+
+[data-md-color-scheme="slate"] .status-check.unknown {
+  color: #ffcb8a;
+}
+
+.tier-badge {
+  display: inline-block;
+  min-width: 1.7rem;
+  padding: 0.18rem 0.45rem;
+  border-radius: 999px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.tier-badge.tier-2 {
+  background: rgba(46, 125, 50, 0.14);
+  color: #226227;
+}
+
+.tier-badge.tier-1 {
+  background: rgba(13, 71, 161, 0.12);
+  color: #0d47a1;
+}
+
+.tier-badge.tier-0 {
+  background: rgba(230, 81, 0, 0.14);
+  color: #a84300;
+}
+
+[data-md-color-scheme="slate"] .tier-badge.tier-2 {
+  color: #9fe3a5;
+}
+
+[data-md-color-scheme="slate"] .tier-badge.tier-1 {
+  color: #90caf9;
+}
+
+[data-md-color-scheme="slate"] .tier-badge.tier-0 {
+  color: #ffb680;
+}
+
+.training-badge {
+  display: inline-block;
+  max-width: 100%;
+  border-radius: 999px;
+  padding: 0.18rem 0.5rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.training-protected {
+  background: rgba(46, 125, 50, 0.14);
+  color: #226227;
+}
+
+.training-conditional {
+  background: rgba(245, 124, 0, 0.14);
+  color: #9a4f00;
+}
+
+.training-not-protected {
+  background: rgba(183, 28, 28, 0.12);
+  color: #9f1f1f;
+}
+
+[data-md-color-scheme="slate"] .training-protected {
+  color: #9fe3a5;
+}
+
+[data-md-color-scheme="slate"] .training-conditional {
+  color: #ffcb8a;
+}
+
+[data-md-color-scheme="slate"] .training-not-protected {
+  color: #ffadad;
+}
+
+/* Interactive AI tool directory */
+
+/* Sticky offsets — updated by JS after layout */
+:root {
+  --ai-dir-controls-top: 48px;
+  --ai-dir-thead-top: 160px;
+}
+
+/* Sticky bar: wraps controls + inline TOC nav */
+.ai-directory-sticky-bar {
+  position: sticky;
+  top: var(--ai-dir-controls-top, 56px);
+  z-index: 10;
+  background: var(--md-default-bg-color);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  margin: 0 -0.8rem;
+  padding: 0 0.8rem;
+}
+
+.md-content__inner > h1[hidden] + .ai-directory-sticky-bar {
+  margin-top: -0.75rem;
+}
+
+.ai-directory-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  padding: 0.6rem 0;
+  position: relative;
+}
+
+.ai-directory-menu-button {
+  display: none;
+  min-height: 2.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 999px;
+  padding: 0.45rem 0.75rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.ai-directory-menu-button:hover,
+.ai-directory-menu-button:focus-visible,
+.ai-directory-toc-button:hover,
+.ai-directory-toc-button:focus-visible,
+.ai-directory-toc-link:hover,
+.ai-directory-toc-link:focus-visible {
+  border-color: var(--md-primary-fg-color);
+  outline: 2px solid rgba(75, 156, 211, 0.28);
+  outline-offset: 2px;
+}
+
+.ai-directory-controls.is-open .ai-directory-menu-button {
+  border-color: var(--md-primary-fg-color);
+}
+
+.ai-directory-controls__label {
+  margin: 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.ai-directory-control-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.ai-directory-control {
+  min-height: 2.2rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 999px;
+  padding: 0.45rem 0.75rem;
+  background: var(--md-default-bg-color);
+  color: var(--md-default-fg-color);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.ai-directory-control:hover,
+.ai-directory-control:focus-visible {
+  border-color: var(--md-primary-fg-color);
+  outline: 2px solid rgba(75, 156, 211, 0.28);
+  outline-offset: 2px;
+}
+
+.ai-directory-control.is-active {
+  border-color: var(--md-primary-fg-color);
+  background: var(--md-primary-fg-color);
+  color: white;
+}
+
+/* Inline TOC nav — horizontal jump links beneath the controls */
+.ai-directory-toc-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  align-items: center;
+  padding: 0.4rem 0 0.5rem;
+  min-height: 2rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.ai-directory-toc-nav::before {
+  content: "JUMP TO";
+  color: var(--md-default-fg-color--light);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.ai-directory-toc-button {
+  display: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ai-directory-toc-mobile-row,
+.ai-directory-toc-mobile-label {
+  display: none;
+}
+
+.ai-directory-toc-link {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--md-default-fg-color--light);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.15s;
+}
+
+.ai-directory-toc-link:hover {
+  color: var(--md-primary-fg-color);
+  text-decoration: underline;
+}
+
+.ai-directory-toc-link.is-active {
+  color: var(--md-primary-fg-color);
+  font-weight: 700;
+}
+
+.ai-directory-status-line {
+  margin: 0 0 0.75rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+}
+
+.ai-directory-group {
+  margin: 1.25rem 0 2rem;
+}
+
+.ai-directory-group-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0 0 0.65rem;
+  color: var(--md-default-fg-color);
+  scroll-margin-top: calc(var(--ai-dir-thead-top, 150px) + 0.6rem);
+}
+
+.ai-directory-group-heading span {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* Table: auto layout so Summary column gets natural breathing room */
+.ai-directory-table {
+  overflow: visible; /* allow thead position:sticky relative to page scroll */
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+/* Material theme wraps tables in .md-typeset__scrollwrap (overflow-x: auto).
+   That makes it a scroll container, breaking position:sticky on thead th.
+   Override to visible so sticky is relative to the page scroll instead.
+   !important needed because after JS re-renders (mode switch), Material does
+   not re-wrap tables, so the TABLE element inherits overflow:auto from Material. */
+.ai-directory-table .md-typeset__scrollwrap,
+.ai-directory-table .md-typeset__table,
+.ai-directory-table .md-typeset__table table,
+.ai-directory-table table {
+  overflow: visible !important;
+}
+
+.ai-directory-table table {
+  width: 100%;
+  min-width: 0;
+  table-layout: fixed;
+  border: 1px solid var(--md-default-fg-color--lightest) !important;
+  border-radius: 12px !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  margin: 0 !important;
+}
+
+/* Sticky thead — offset updated by JS via --ai-dir-thead-top */
+.ai-directory-table thead th {
+  position: sticky;
+  top: var(--ai-dir-thead-top, 150px);
+  z-index: 2;
+  /* Opaque background: layered solid + tint so content scrolling below doesn't show through */
+  background-color: var(--md-default-bg-color);
+  background-image: linear-gradient(rgba(75, 156, 211, 0.12), rgba(75, 156, 211, 0.12));
+}
+
+.ai-directory-table thead th:first-child {
+  border-top-left-radius: 12px;
+}
+
+.ai-directory-table thead th:last-child {
+  border-top-right-radius: 12px;
+}
+
+.ai-directory-table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 12px;
+}
+
+.ai-directory-table tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 12px;
+}
+
+.ai-directory-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Support-mode grouping: repeated rows for the same tool share one stripe color. */
+.ai-directory-table tbody tr.ai-directory-group-even {
+  background: rgba(19, 41, 75, 0.03);
+}
+
+.ai-directory-table tbody tr.ai-directory-group-odd {
+  background: transparent;
+}
+
+/* Compact columns: fixed-layout widths keep the table inside the viewport. */
+.ai-directory-col-tool {
+  width: 10.5rem;
+}
+
+.ai-directory-col-activity {
+  width: 9rem;
+}
+
+.ai-directory-col-support {
+  width: 5rem;
+}
+
+.ai-directory-col-tier {
+  width: 7rem;
+}
+
+.ai-directory-col-training {
+  width: 5rem;
+}
+
+.ai-directory-col-summary {
+  width: auto;
+}
+
+.ai-directory-table th.ai-directory-col-support,
+.ai-directory-table td.ai-directory-col-support,
+.ai-directory-table th.ai-directory-col-tier,
+.ai-directory-table td.ai-directory-col-tier,
+.ai-directory-table th.ai-directory-col-training,
+.ai-directory-table td.ai-directory-col-training {
+  text-align: center;
+}
+
+.ai-directory-child-label {
+  font-weight: 700;
+}
+
+.ai-directory-empty {
+  padding: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+}
+
+.ai-directory-card-list {
+  display: none;
+}
+
+.ai-directory-card {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 16px;
+  background: var(--md-default-bg-color);
+}
+
+.ai-directory-card-header {
+  margin-bottom: 0.8rem;
+}
+
+.ai-directory-card-title {
+  color: var(--md-default-fg-color);
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.ai-directory-card-subtitle {
+  margin: 0.2rem 0 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.ai-directory-card-meta {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.ai-directory-card-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.55rem 0.7rem;
+  border-radius: 12px;
+  background: rgba(19, 41, 75, 0.04);
+}
+
+.ai-directory-card-label {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.ai-directory-card-value {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  color: var(--md-default-fg-color);
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-align: right;
+}
+
+.ai-directory-card-summary {
+  margin: 0.9rem 0 0;
+  color: var(--md-default-fg-color);
+  line-height: 1.5;
+}
+
+[data-md-color-scheme="slate"] .ai-directory-sticky-bar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+[data-md-color-scheme="slate"] .ai-directory-table thead th {
+  background-color: var(--md-default-bg-color);
+  background-image: linear-gradient(rgba(125, 185, 227, 0.1), rgba(125, 185, 227, 0.1));
+}
+
+[data-md-color-scheme="slate"] .ai-directory-table tbody tr.ai-directory-group-even {
+  background: rgba(125, 185, 227, 0.05);
+}
+
+[data-md-color-scheme="slate"] .ai-directory-card-row {
+  background: rgba(125, 185, 227, 0.08);
+}
+
+@media screen and (max-width: 76em) {
+  .tool-comparison-table-compact {
+    font-size: 0.74rem;
+  }
+
+  .tool-comparison-table th,
+  .tool-comparison-table td {
+    padding: 0.55rem 0.45rem;
+  }
+
+  .ai-directory-sticky-bar {
+    margin: 0 -0.6rem;
+    padding: 0 0.6rem;
+  }
+
+  .ai-directory-controls {
+    gap: 0.5rem;
+    padding: 0.55rem 0;
+    flex-wrap: wrap;
+  }
+
+  .ai-directory-controls__label {
+    display: inline-block;
+  }
+
+  .ai-directory-menu-button {
+    display: none;
+  }
+
+  .ai-directory-control-set {
+    display: flex;
+    position: static;
+    z-index: auto;
+    flex: 1 1 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .ai-directory-control {
+    width: auto;
+    flex: 0 0 auto;
+  }
+
+  .ai-directory-col-tool {
+    width: 8.8rem;
+  }
+
+  .ai-directory-col-activity {
+    width: 7.25rem;
+  }
+
+  .ai-directory-col-support {
+    width: 4.5rem;
+  }
+
+  .ai-directory-col-tier {
+    width: 5.8rem;
+  }
+
+  .ai-directory-col-training {
+    width: 4.5rem;
+  }
+
+  .ai-directory-group-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
+
+@media screen and (max-width: 44em) {
+  .md-content__inner > h1[hidden] + .ai-directory-sticky-bar {
+    margin-top: -1.5rem;
+  }
+
+  .ai-directory-controls {
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-top: 0.35rem;
+    padding-bottom: 0.45rem;
+  }
+
+  .ai-directory-controls__label {
+    display: inline-block;
+  }
+
+  .ai-directory-menu-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    flex: 0 1 auto;
+    min-width: 0;
+  }
+
+  .ai-directory-control-set {
+    display: none;
+    position: absolute;
+    top: calc(100% - 0.1rem);
+    left: 0;
+    right: 0;
+    z-index: 30;
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 0.5rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 12px;
+    background: var(--md-default-bg-color);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+  }
+
+  .ai-directory-controls.is-open .ai-directory-control-set {
+    display: flex;
+  }
+
+  .ai-directory-control {
+    width: 100%;
+    flex: 1 1 auto;
+  }
+
+  .ai-directory-toc-mobile-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+  }
+
+  .ai-directory-toc-mobile-label {
+    display: inline-block;
+    color: var(--md-default-fg-color--light);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+
+  .ai-directory-toc-button {
+    width: auto;
+    flex: 0 1 auto;
+    min-width: 0;
+    margin: 0;
+  }
+
+  .ai-directory-sticky-bar {
+    display: grid;
+    gap: 0.35rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .ai-directory-controls,
+  .ai-directory-toc-mobile-row {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .ai-directory-toc-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.2rem;
+    padding: 0.45rem 0.75rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 999px;
+    background: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .ai-directory-toc-button[aria-expanded="true"] {
+    border-color: var(--md-primary-fg-color);
+  }
+
+  .ai-directory-table {
+    display: none;
+  }
+
+  .ai-directory-card-list {
+    display: grid;
+    gap: 0.8rem;
+  }
+
+  .ai-directory-card {
+    padding: 0.95rem 0.95rem 1rem;
+    box-shadow: 0 10px 24px rgba(19, 41, 75, 0.08);
+  }
+
+  .ai-directory-card.ai-directory-group-even {
+    background: rgba(19, 41, 75, 0.03);
+  }
+
+  .ai-directory-card-row {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .ai-directory-card-value {
+    justify-content: flex-end;
+    margin-left: auto;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .ai-directory-card-value .tier-badge,
+  .ai-directory-card-value .training-badge {
+    max-width: 100%;
+  }
+
+  .ai-directory-toc-nav {
+    display: none;
+    position: absolute;
+    top: calc(100% - 0.1rem);
+    left: 0;
+    right: 0;
+    z-index: 30;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.35rem;
+    margin: 0;
+    padding: 0.5rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 12px;
+    background: var(--md-default-bg-color);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
+  }
+
+  .ai-directory-toc-nav::before {
+    content: none;
+    display: none;
+  }
+
+  .ai-directory-toc-nav.is-open {
+    display: grid;
+  }
+
+  .ai-directory-toc-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.2rem;
+    padding: 0.45rem 0.75rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 999px;
+    background: var(--md-default-bg-color);
+    color: var(--md-default-fg-color);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .ai-directory-toc-link.is-active {
+    border-color: var(--md-primary-fg-color);
+    background: var(--md-primary-fg-color);
+    color: white;
+  }
+}
+
+@media screen and (max-width: 44em) {
+  [data-md-color-scheme="slate"] .ai-directory-control-set {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+  }
+
+  [data-md-color-scheme="slate"] .ai-directory-toc-nav {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.35);
+  }
+
+  [data-md-color-scheme="slate"] .ai-directory-toc-link {
+    background: rgba(255, 255, 255, 0.02);
+  }
+}
+
+@media screen and (max-width: 44em) {
+  [data-md-color-scheme="slate"] .ai-directory-card {
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.28);
+  }
+
+  [data-md-color-scheme="slate"] .ai-directory-card.ai-directory-group-even {
+    background: rgba(125, 185, 227, 0.05);
+  }
+}
