@@ -4,6 +4,12 @@ hide:
   - toc
 ---
 
+<header class="ai-directory-hero">
+  <p class="ai-directory-hero__eyebrow">UNC Teaching Toolkit</p>
+  <h1>AI Tool Directory</h1>
+  <p>Compare teaching-focused AI tools by campus support, activity type, data tier, and model-training protections.</p>
+</header>
+
 <div class="ai-directory-sticky-bar" id="ai-directory-sticky-bar">
 <div class="ai-directory-controls" id="ai-directory-controls" aria-label="AI tool directory grouping controls">
   <span class="ai-directory-controls__label">Organize By</span>

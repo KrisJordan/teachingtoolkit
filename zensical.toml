@@ -21,7 +21,9 @@ nav = [
 ]
 
 [project.theme]
-variant = "classic"
+variant = "modern"
+font.text = "Inter"
+font.code = "JetBrains Mono"
 features = [
   "navigation.tabs",
   "navigation.sections",
@@ -36,22 +38,6 @@ features = [
 [project.theme.icon]
 logo = "lucide/graduation-cap"
 annotation = "lucide/circle-arrow-right"
-
-[[project.theme.palette]]
-media = "(prefers-color-scheme: light)"
-scheme = "default"
-primary = "custom"
-accent = "custom"
-toggle.icon = "lucide/sun"
-toggle.name = "Switch to dark mode"
-
-[[project.theme.palette]]
-media = "(prefers-color-scheme: dark)"
-scheme = "slate"
-primary = "custom"
-accent = "custom"
-toggle.icon = "lucide/moon"
-toggle.name = "Switch to light mode"
 
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.attr_list]
