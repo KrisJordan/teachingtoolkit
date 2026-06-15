@@ -6,7 +6,7 @@ _Last Updated: April 2026_
 |---|---------------|------|------|---------------|-----------------|
 | Lesson Planning<br>Rubrics  |Yes | Free | < 1 minute | [m365.cloud.microsoft/teach](https://m365.cloud.microsoft/teach) | [Yes](data-privacy.md){ title="Approved for FERPA and sensitive student data." } |
 
-<img src="../copilot/teach.png" width="250px" alt="Teach Sidebar in Microsoft Copilot 365" style="float: right; margin-right: 16px">
+<img src="copilot/teach.png" width="250px" alt="Teach Sidebar in Microsoft Copilot 365" style="float: right; margin-right: 16px">
 
 UNC's Microsoft Copilot 365 subscription offers **Teaching Tools** for instructors.
 
@@ -52,15 +52,15 @@ It is common for grading to be delayed by being stuck on the "rubric block" of c
 
 **Step 1. Information about the Assignment**
 
-<img src="../copilot/rubric-information.png" width="550px" alt="Information about the assignment">
+<img src="copilot/rubric-information.png" width="550px" alt="Information about the assignment">
 
 **Step 2. Rubric Scale and Evaluation Criteria**
 
-<img src="../copilot/rubric-scale.png" width="550px" alt="Rubric Scale and Evaluation Criteria">
+<img src="copilot/rubric-scale.png" width="550px" alt="Rubric Scale and Evaluation Criteria">
 
 **Step 3. Rubric Generation**
 
-<img src="../copilot/rubric-generation.png" width="550px" alt="Rubric Generation and Editor">
+<img src="copilot/rubric-generation.png" width="550px" alt="Rubric Generation and Editor">
 
 **Step 4. Edit and Export**
 
