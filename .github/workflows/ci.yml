@@ -1,36 +1,69 @@
 name: ci
+
 on:
   push:
     branches:
       - main
+
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/configure-pages@v5
       - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV
-      - uses: actions/cache@v4
-        with:
-          key: mkdocs-material-${{ env.cache_id }}
-          path: ~/.cache
-          restore-keys: |
-            mkdocs-material-
       - name: Setup uv
-        uses: astral-sh/setup-uv@v1
+        uses: astral-sh/setup-uv@v5
         with:
           version: latest
-      - name: Create virtual environment and sync dependencies
+      - name: Sync dependencies
+        run: uv sync --dev
+      - name: Build site with Zensical
+        run: uv run zensical build --clean
+      - name: Verify retired docs are not searchable
         run: |
-          uv venv --clear
-          uv sync --dev
-      - name: Deploy site with mkdocs (via uv)
-        run: uv run mkdocs gh-deploy --force
+          source .venv/bin/activate
+          find docs/.scaffold -name '*.md' ! -path 'docs/.scaffold/config/*' | while read -r retired_doc; do
+            location="${retired_doc#docs/.scaffold/}"
+
+            if [ "$location" = "index.md" ]; then
+              continue
+            fi
+
+            location="${location%.md}"
+
+            case "$location" in
+              */index) location="${location%/index}/" ;;
+              *) location="${location}/" ;;
+            esac
+
+            if grep -qF "\"location\":\"$location\"" site/search.json; then
+              echo "::error::Retired scaffold document is present in site/search.json: $retired_doc"
+              exit 1
+            fi
+          done
+      - name: Prepare GitHub Pages branch output
+        run: |
+          source .venv/bin/activate
+          touch site/.nojekyll
+      - name: Publish clean gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          force_orphan: true
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment

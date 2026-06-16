@@ -1,0 +1,65 @@
+[project]
+site_name = "UNC AI Teaching Toolkit"
+site_url = "https://krisjordan.github.io/teachingtoolkit/"
+site_description = "A focused AI tool directory for UNC instructors."
+docs_dir = "docs"
+site_dir = "site"
+use_directory_urls = true
+extra_css = ["stylesheets/extra.css"]
+extra_javascript = ["javascripts/ai-tool-directory.js"]
+nav = [
+  { "AI Tool Directory" = "index.md" },
+  { "Tool Guides" = [
+    { "UNC Supported" = [
+      { "Copilot 365" = "tools/copilot-365.md" },
+      { "PromptLab" = "tools/promptlab.md" },
+      { "Gradescope" = "tools/gradescope.md" },
+      { "Zoom AI Companion" = "tools/zoom.md" },
+      { "Canvas Discussion Summaries" = "tools/canvas-tips.md" }
+    ] },
+    { "Additional Tools" = [
+      { "NotebookLM" = "tools/notebooklm.md" },
+      { "Adobe Firefly" = "tools/firefly.md" },
+      { "MagicSchool.ai" = "tools/magic-school.md" }
+    ] },
+    { "Reference" = [
+      { "Data Protection" = "tools/data-privacy.md" }
+    ] }
+  ] }
+]
+
+[project.theme]
+variant = "modern"
+custom_dir = "overrides"
+font.text = "Inter"
+font.code = "JetBrains Mono"
+features = [
+  "navigation.tabs",
+  "navigation.sections",
+  "navigation.expand",
+  "navigation.indexes",
+  "navigation.top",
+  "search.highlight",
+  "content.tabs.link",
+  "content.code.copy"
+]
+
+[project.theme.icon]
+logo = "lucide/graduation-cap"
+annotation = "lucide/circle-arrow-right"
+
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.tables]
+
+[project.markdown_extensions.toc]
+permalink = true
+
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.superfences]
+[project.markdown_extensions.pymdownx.highlight]
+[project.markdown_extensions.pymdownx.mark]
+
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true

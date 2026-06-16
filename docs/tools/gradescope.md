@@ -16,17 +16,7 @@ For some question types, Gradescope's AI suggests groupings of student responses
 
 ## Demonstration Video
 
-For a quick overview of Gradescope's AI-assisted grading workflow, this demonstration shows how to design an assignment for answer grouping, review AI-suggested groups, and grade many student responses at once.
-
-<div class="video-container">
-  <iframe 
-    src="https://www.youtube.com/embed/PLACEHOLDER" 
-    title="Gradescope AI Grading for Instructors Demo"
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-  </iframe>
-</div>
+A short Gradescope AI-assisted grading walkthrough is being prepared. In the meantime, the steps below outline the workflow and link to the official answer-grouping guide.
 
 ## Getting Started
 

@@ -42,7 +42,7 @@ Before starting, call `tool_search` for each of these capabilities so their defe
 If the page is on a local dev server, start it first and wait for it to be ready. For this MkDocs project:
 
 ```bash
-source .venv/bin/activate && mkdocs serve --dev-addr 127.0.0.1:8000
+source .venv/bin/activate && zensical serve --dev-addr 127.0.0.1:8000
 ```
 
 ### 3. Navigate to the Page

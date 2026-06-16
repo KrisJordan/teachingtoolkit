@@ -6,7 +6,7 @@ _Last Updated: April 2026_
 |---|---------------|------|------|---------------|-----------------|
 | Lesson Planning<br>Rubrics  |Yes | Free | < 1 minute | [m365.cloud.microsoft/teach](https://m365.cloud.microsoft/teach) | [Yes](data-privacy.md){ title="Approved for FERPA and sensitive student data." } |
 
-<img src="../copilot/teach.png" width="250px" alt="Teach Sidebar in Microsoft Copilot 365" style="float: right; margin-right: 16px">
+<img src="copilot/teach.png" width="250px" alt="Teach Sidebar in Microsoft Copilot 365" style="float: right; margin-right: 16px">
 
 UNC's Microsoft Copilot 365 subscription offers **Teaching Tools** for instructors.
 
@@ -14,9 +14,9 @@ You can find them in the sidebar under **Teach** or by following this direct lin
 
 <div style="clear:both;"></div>
 
-!!! info "UNC's Officially Supported AI Tools with FERPA Data Protection"
+!!! info "Copilot 365 and FERPA Data Protection"
 
-    Copilot 365 is currently only AI platform at UNC that is sanctioned for FERPA protected information education records such as student grades (Tier 2). UNC's license agreement with Microsoft Copilot 365 has support for [UNC Tier 1 (Business Information)](https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=131244) and [Tier 2 (Confidential Information) data](https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=131244).
+    For the teaching workflows covered in this toolkit, Copilot 365 is the general-purpose AI environment documented for FERPA-protected education records such as student grades. UNC's Microsoft agreement supports [UNC Tier 1 (Business Information)](https://policies.unc.edu/TDClient/2833/Portal/KB/Article/131244/Information-Classification-Standard) and [Tier 2 (Confidential Information)](https://policies.unc.edu/TDClient/2833/Portal/KB/Article/131244/Information-Classification-Standard) data. Use the UNC Microsoft 365 environment, not a personal consumer AI account, when a prompt or upload includes confidential student records.
 
 ### Lesson Plan Creator
 
@@ -52,15 +52,15 @@ It is common for grading to be delayed by being stuck on the "rubric block" of c
 
 **Step 1. Information about the Assignment**
 
-<img src="../copilot/rubric-information.png" width="550px" alt="Information about the assignment">
+<img src="copilot/rubric-information.png" width="550px" alt="Information about the assignment">
 
 **Step 2. Rubric Scale and Evaluation Criteria**
 
-<img src="../copilot/rubric-scale.png" width="550px" alt="Rubric Scale and Evaluation Criteria">
+<img src="copilot/rubric-scale.png" width="550px" alt="Rubric Scale and Evaluation Criteria">
 
 **Step 3. Rubric Generation**
 
-<img src="../copilot/rubric-generation.png" width="550px" alt="Rubric Generation and Editor">
+<img src="copilot/rubric-generation.png" width="550px" alt="Rubric Generation and Editor">
 
 **Step 4. Edit and Export**
 

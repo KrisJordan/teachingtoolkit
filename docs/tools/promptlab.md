@@ -12,17 +12,7 @@ The standout feature for instructors is the ability to build **custom AI agents*
 
 ## Demonstration Video
 
-For a quick overview of PromptLab and how UNC faculty can use it, this 3-minute demonstration walks you through the platform and shows how to build a simple course agent.
-
-<div class="video-container">
-  <iframe 
-    src="https://www.youtube.com/embed/PLACEHOLDER" 
-    title="PromptLab 3-minute Demo"
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-  </iframe>
-</div>
+A short PromptLab walkthrough is being prepared. Until that video is ready, use the getting-started steps below and the linked UNC Libraries resources at the end of this guide.
 
 ## Getting Started
 
@@ -81,9 +71,9 @@ Students who have signed in to PromptLab can then use your agent for structured,
 
 You can upload documents, including PDFs, Word files, and images, into a conversation or into an agent's knowledge base.
 
-!!! warning "PromptLab cannot be used with FERPA protected data"
+!!! warning "PromptLab cannot be used with FERPA-protected data"
 
-    **Do not enter FERPA-protected student records, grades, or other confidential data.** For tasks involving student grades or FERPA data, use [Copilot 365](copilot-365.md) instead.PromptLab is approved for [publicly available (Tier 0) and low-sensitivity business information (Tier 1)](data-privacy.md). 
+    **Do not enter FERPA-protected student records, grades, or other confidential data.** For tasks involving student grades or FERPA data, use [Copilot 365](copilot-365.md) instead. PromptLab is documented here for [publicly available (Tier 0) and low-sensitivity Business Information (Tier 1)](data-privacy.md).
 
 ## Ideas for Instructors
 
