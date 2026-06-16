@@ -24,6 +24,21 @@
   var resizeTimer;
   var scrollTicking;
   var rows = [];
+  var tierTooltips = {
+    "Tier 0": "Tier 0: Public Information, such as general academic concepts, public readings, and course materials that have already been approved for public sharing.",
+    "Tier 1": "Tier 1: Business Information, such as internal drafts, lesson plans, rough exam ideas, brainstorming notes, and other low-sensitivity teaching materials that do not identify or evaluate a student.",
+    "Tier 2 / FERPA": "Tier 2 / FERPA: Confidential Information, including education records such as identifiable student work, grades, feedback, class schedules, and roster details connected to course activity or performance.",
+    "Tier 3": "Tier 3: Restricted Information is outside the scope of the general teaching AI workflows in this directory. This includes Social Security numbers, student health information, financial aid information, passwords, some conduct records, and restricted research data."
+  };
+  var trainingProtectionTooltips = {
+    "Protected": "Protected: Documentation for this tool or UNC agreement indicates that what you type, upload, or generate for this teaching workflow is not used to train or improve public AI models. Still follow the UNC tier; use FERPA records only when the guide explicitly supports Tier 2 / FERPA.",
+    "Unknown": "Unknown: This toolkit has not confirmed model-training protection for this teaching workflow. Use public or low-sensitivity teaching materials, and keep identifiable student records out unless the guide explicitly supports Tier 2 / FERPA.",
+    "Not protected": "Not protected: Assume what you type, upload, or generate could be reviewed or used to improve the service or public AI models. Keep FERPA records and sensitive teaching data out of the tool."
+  };
+  var columnHeaderTooltips = {
+    "UNC Tier / FERPA": "UNC Tier / FERPA: the sensitivity category for the teaching information this tool can handle in the listed workflow.",
+    "Training Protection": "Training Protection: what the tool or UNC agreement says about reuse of what you type, upload, or generate."
+  };
 
   try {
     rows = JSON.parse(dataElement.textContent);
@@ -612,11 +627,15 @@
     var heading = document.createElement("h2");
     var count = document.createElement("span");
     var slug = title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    var tooltip = getLabelTooltip(title);
 
     section.className = "ai-directory-group";
     heading.id = slug;
     heading.className = "ai-directory-group-heading";
     heading.textContent = title;
+    if (tooltip) {
+      heading.title = tooltip;
+    }
     count.textContent = countText;
     heading.appendChild(count);
     section.appendChild(heading);
@@ -631,9 +650,14 @@
     headers.forEach(function (header) {
       var th = document.createElement("th");
       var headerClass = getColumnClass(header);
+      var headerTooltip = getColumnHeaderTooltip(header);
 
       th.scope = "col";
       th.textContent = header;
+      if (headerTooltip) {
+        th.title = headerTooltip;
+        th.setAttribute("aria-label", headerTooltip);
+      }
       if (headerClass) {
         th.classList.add(headerClass);
       }
@@ -732,21 +756,23 @@
   function createTierBadge(privacyTier) {
     var badge = document.createElement("span");
     var tierNumber = privacyTier.match(/Tier (\d)/);
+    var tooltip = getTierTooltip(privacyTier);
 
     badge.className = "tier-badge tier-" + (tierNumber ? tierNumber[1] : "0");
     badge.textContent = privacyTier;
-    badge.title = privacyTier;
+    badge.title = tooltip;
+    badge.setAttribute("aria-label", tooltip);
     return badge;
   }
 
   function createTrainingBadge(protection, note) {
     var badge = document.createElement("span");
+    var tooltip = getTrainingTooltip(protection, note);
 
     badge.className = "training-badge " + getTrainingClass(protection);
     badge.textContent = protection;
-    if (note) {
-      badge.title = note;
-    }
+    badge.title = tooltip;
+    badge.setAttribute("aria-label", tooltip);
     return badge;
   }
 
@@ -794,11 +820,15 @@
     var cell = document.createElement("td");
     var badge = document.createElement("span");
     var tierNumber = privacyTier.match(/Tier (\d)/);
+    var tooltip = getTierTooltip(privacyTier);
 
     cell.className = "ai-directory-col-tier";
+    cell.setAttribute("aria-label", tooltip);
+    cell.title = tooltip;
     badge.className = "tier-badge tier-" + (tierNumber ? tierNumber[1] : "0");
     badge.textContent = tierNumber ? tierNumber[1] : "?";
-    badge.title = privacyTier;
+    badge.title = tooltip;
+    badge.setAttribute("aria-label", tooltip);
     cell.appendChild(badge);
     tableRow.appendChild(cell);
   }
@@ -806,13 +836,14 @@
   function appendTrainingCell(tableRow, protection, note) {
     var cell = document.createElement("td");
     var mark = document.createElement("span");
+    var tooltip = getTrainingTooltip(protection, note);
 
     cell.className = "ai-directory-col-training";
     mark.className = "status-check " + getTrainingStateClass(protection);
     mark.setAttribute("aria-hidden", "true");
     mark.textContent = getTrainingSymbol(protection);
-    cell.setAttribute("aria-label", protection);
-    cell.title = note || protection;
+    cell.setAttribute("aria-label", tooltip);
+    cell.title = tooltip;
     cell.appendChild(mark);
     tableRow.appendChild(cell);
   }
@@ -857,6 +888,34 @@
       return "no";
     }
     return "unknown";
+  }
+
+  function getLabelTooltip(label) {
+    if (tierTooltips[label]) {
+      return tierTooltips[label];
+    }
+    if (trainingProtectionTooltips[label]) {
+      return trainingProtectionTooltips[label];
+    }
+    return "";
+  }
+
+  function getColumnHeaderTooltip(label) {
+    return columnHeaderTooltips[label] || "";
+  }
+
+  function getTierTooltip(privacyTier) {
+    return tierTooltips[privacyTier] || privacyTier;
+  }
+
+  function getTrainingTooltip(protection, note) {
+    var tooltip = trainingProtectionTooltips[protection] || protection;
+
+    if (note) {
+      tooltip += " Tool-specific note: " + note;
+    }
+
+    return tooltip;
   }
 
   function appendLinkOrText(parent, text, href, strong) {

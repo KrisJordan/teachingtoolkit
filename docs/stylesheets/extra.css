@@ -65,6 +65,21 @@
   box-shadow: none;
 }
 
+@media screen and (min-width: 60em) {
+  .md-header__inner {
+    padding-right: 0.8rem;
+    padding-left: 0.8rem;
+  }
+
+  .md-header__source:not(:has(.md-source)) {
+    display: none;
+    width: 0;
+    max-width: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 .md-typeset mark {
   border-radius: 3px;
   background-color: var(--unc-coastal-sand);
@@ -245,7 +260,7 @@
 }
 
 .ai-directory-hero p:last-child {
-  max-width: 42rem;
+  max-width: none;
   margin: 0.55rem 0 0;
   color: var(--tt-muted);
   font-size: 0.92rem;

@@ -8,7 +8,7 @@ hide:
 <header class="ai-directory-hero">
   <p class="ai-directory-hero__eyebrow">CFE AI Teaching Toolkit</p>
   <h1>AI Tool Directory</h1>
-  <p>Compare teaching-focused AI tools by campus support, activity type, data tier, and model-training protections.</p>
+  <p>Find the right AI tool for teaching work at UNC-Chapel Hill. Compare campus support, FERPA guidance, and model-training protections for tools that can help with your lesson planning, rubrics, grading workflows, discussions, and more.</p>
 </header>
 
 <div class="ai-directory-sticky-bar" id="ai-directory-sticky-bar">
@@ -270,6 +270,6 @@ hide:
 - **Tier 1:** Business Information, such as internal drafts, lesson plans, rough exam ideas, brainstorming notes, and other low-sensitivity teaching materials that do not identify or evaluate a student.
 - **Tier 2 / FERPA:** Confidential Information, including education records such as identifiable student work, grades, feedback, class schedules, and roster details connected to course activity or performance.
 - **Tier 3:** Restricted Information is outside the scope of the general teaching AI workflows in this directory. This includes Social Security numbers, student health information, financial aid information, passwords, some conduct records, and restricted research data.
-- **Training protection:** Whether this toolkit has a documented reason to believe prompts, uploads, or generated assets are protected from being used to improve future public models. This is separate from the UNC tier: a protected Tier 1 tool still should not be used for FERPA records unless its guide explicitly supports Tier 2.
+- **Training protection:** What the tool or UNC agreement says about reuse of what you type, upload, or generate. **Protected** means this toolkit has documentation that content for the listed teaching workflow is not used to train or improve public AI models. **Unknown** means we have not confirmed that protection. **Not protected** means you should assume the content could be reviewed or used to improve the service. This label does not replace the UNC tier: use FERPA records only when the guide explicitly supports Tier 2 / FERPA.
 
 For more detail, see [Data Protection Basics for Instructors](tools/data-privacy.md) and the official [UNC Information Classification Standard](https://policies.unc.edu/TDClient/2833/Portal/KB/Article/131244/Information-Classification-Standard).

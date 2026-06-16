@@ -31,10 +31,10 @@ nav = [
 [project.theme]
 variant = "modern"
 custom_dir = "overrides"
+favicon = "assets/images/favicon.jpg"
 font.text = "Inter"
 font.code = "JetBrains Mono"
 features = [
-  "navigation.tabs",
   "navigation.sections",
   "navigation.expand",
   "navigation.indexes",
@@ -45,7 +45,7 @@ features = [
 ]
 
 [project.theme.icon]
-logo = "lucide/graduation-cap"
+logo = "lucide/lightbulb"
 annotation = "lucide/circle-arrow-right"
 
 [project.markdown_extensions.admonition]

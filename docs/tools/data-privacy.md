@@ -33,7 +33,7 @@ A useful first question is: **Could this prompt, file, or output reveal somethin
 
 Identifiers such as PIDs or ONYENs may be Tier 1 by themselves under the University standard. In teaching tools, treat them with care: once an identifier is connected to grades, feedback, attendance, submissions, participation, or other student-record context, you are in Tier 2.
 
-**AI use:** Use tools marked for Tier 1 when your material is internal teaching work and does not include student education records. A tool can have training protections and still be limited to Tier 1, so check both labels.
+**AI use:** Use tools marked for Tier 1 when your material is internal teaching work and does not include student education records. Training protection helps you understand how the tool may reuse your prompts or uploads, but it does not change the data tier. A protected Tier 1 tool is still not the right place for FERPA records unless its guide explicitly says it supports Tier 2 or FERPA workflows.
 
 ## Tier 2: Confidential Information, Including FERPA Records
 
@@ -69,12 +69,18 @@ The practical line is this: if the material identifies a student and says someth
 
 ## Rule of Thumb for Generative AI
 
-Data tiers and model-training protections answer different questions:
+Two labels work together when you choose an AI workflow:
 
-- **Data tier:** What kind of information am I putting into the tool?
-- **Training protection:** What does the tool or agreement say about using prompts, uploads, or outputs to improve future models?
+- **Data tier:** How sensitive is the teaching information I am putting into the tool?
+- **Training protection:** What may happen to what I type, upload, or generate after it enters the tool?
 
-You need both answers. A Tier 1 tool with strong training protections is still not automatically appropriate for FERPA records. A campus system that can hold FERPA records may still have AI-specific terms that are worth checking before you use a new feature.
+A helpful way to read the training-protection label:
+
+- **Protected:** This toolkit has documentation, such as campus agreement information or vendor terms, indicating that content for the listed teaching workflow is not used to train or improve public AI models.
+- **Unknown:** This toolkit has not confirmed model-training protection for that teaching workflow. Use public or low-sensitivity teaching materials, and do not include identifiable student records unless the tool guide explicitly supports Tier 2 / FERPA.
+- **Not protected:** Assume what you type, upload, or generate could be reviewed or used to improve the service or public AI models. Keep FERPA records and sensitive teaching data out.
+
+The important point is that training protection is about reuse of your content, not permission to use every kind of course information. A protected Tier 1 tool is still not automatically appropriate for FERPA records. A campus system that can hold FERPA records may still have AI-specific terms that are worth checking before you use a new feature.
 
 For everyday teaching decisions:
 
