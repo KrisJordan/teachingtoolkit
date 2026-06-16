@@ -71,9 +71,9 @@ Students who have signed in to PromptLab can then use your agent for structured,
 
 You can upload documents, including PDFs, Word files, and images, into a conversation or into an agent's knowledge base.
 
-!!! warning "PromptLab cannot be used with FERPA protected data"
+!!! warning "PromptLab cannot be used with FERPA-protected data"
 
-    **Do not enter FERPA-protected student records, grades, or other confidential data.** For tasks involving student grades or FERPA data, use [Copilot 365](copilot-365.md) instead.PromptLab is approved for [publicly available (Tier 0) and low-sensitivity business information (Tier 1)](data-privacy.md). 
+    **Do not enter FERPA-protected student records, grades, or other confidential data.** For tasks involving student grades or FERPA data, use [Copilot 365](copilot-365.md) instead. PromptLab is documented here for [publicly available (Tier 0) and low-sensitivity Business Information (Tier 1)](data-privacy.md).
 
 ## Ideas for Instructors
 

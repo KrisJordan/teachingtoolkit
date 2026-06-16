@@ -14,9 +14,9 @@ You can find them in the sidebar under **Teach** or by following this direct lin
 
 <div style="clear:both;"></div>
 
-!!! info "UNC's Officially Supported AI Tools with FERPA Data Protection"
+!!! info "Copilot 365 and FERPA Data Protection"
 
-    Copilot 365 is currently only AI platform at UNC that is sanctioned for FERPA protected information education records such as student grades (Tier 2). UNC's license agreement with Microsoft Copilot 365 has support for [UNC Tier 1 (Business Information)](https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=131244) and [Tier 2 (Confidential Information) data](https://policies.unc.edu/TDClient/2833/Portal/KB/ArticleDet?ID=131244).
+    For the teaching workflows covered in this toolkit, Copilot 365 is the general-purpose AI environment documented for FERPA-protected education records such as student grades. UNC's Microsoft agreement supports [UNC Tier 1 (Business Information)](https://policies.unc.edu/TDClient/2833/Portal/KB/Article/131244/Information-Classification-Standard) and [Tier 2 (Confidential Information)](https://policies.unc.edu/TDClient/2833/Portal/KB/Article/131244/Information-Classification-Standard) data. Use the UNC Microsoft 365 environment, not a personal consumer AI account, when a prompt or upload includes confidential student records.
 
 ### Lesson Plan Creator
 

@@ -1,11 +1,12 @@
 ---
+title: AI Tool Directory
 hide:
   - navigation
   - toc
 ---
 
 <header class="ai-directory-hero">
-  <p class="ai-directory-hero__eyebrow">UNC Teaching Toolkit</p>
+  <p class="ai-directory-hero__eyebrow">UNC AI Teaching Toolkit</p>
   <h1>AI Tool Directory</h1>
   <p>Compare teaching-focused AI tools by campus support, activity type, data tier, and model-training protections.</p>
 </header>
@@ -100,15 +101,15 @@ hide:
   {
     "tool": "Zoom",
     "application": "AI Companion",
-    "summary": "Meeting summaries, action items, and in-meeting assistance for office hours, TA coordination, and planning conversations.",
+    "summary": "Meeting summaries, live meeting questions, and action items for Zoom meetings where participants have been notified.",
     "supportGroup": "UNC supported",
     "activityType": "Meeting support",
     "privacyTier": "Tier 1",
-    "trainingProtection": "Unknown",
-    "trainingNote": "This toolkit does not yet document UNC-specific AI Companion training terms; avoid sensitive student records unless campus guidance confirms the workflow.",
+    "trainingProtection": "Protected",
+    "trainingNote": "Zoom states that customer audio, video, chat, screen sharing, attachments, and similar customer content are not used to train Zoom's or third-party AI models.",
     "parentTool": "Zoom",
     "displayGroup": "Zoom",
-    "link": "https://www.zoom.com/en/products/ai-companion/",
+    "link": "tools/zoom/",
     "sortOrder": 60
   },
   {
@@ -225,8 +226,8 @@ hide:
     <tr><td>PromptLab</td><td class="ai-directory-child-label">Agents</td><td>Course agents</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>No-code course agents that can use attached course context for study support, FAQs, and structured practice without FERPA data.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/gradescope/">Gradescope</a> <span>1 application</span></th></tr>
     <tr><td>Gradescope</td><td class="ai-directory-child-label">AI-Assisted Grading</td><td>Assessment and grading</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Canvas-integrated grading workflows where AI can suggest answer groups while instructors and TAs make scoring decisions.</td></tr>
-    <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="https://www.zoom.com/en/products/ai-companion/">Zoom</a> <span>1 application</span></th></tr>
-    <tr><td>Zoom</td><td class="ai-directory-child-label">AI Companion</td><td>Meeting support</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Meeting summaries, action items, and in-meeting assistance for office hours, TA coordination, and planning conversations.</td></tr>
+    <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/zoom/">Zoom</a> <span>1 application</span></th></tr>
+    <tr><td>Zoom</td><td class="ai-directory-child-label">AI Companion</td><td>Meeting support</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>Meeting summaries, live meeting questions, and action items for Zoom meetings where participants have been notified.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="https://www.adobe.com/products/firefly.html">Adobe Firefly</a> <span>1 application</span></th></tr>
     <tr><td>Adobe Firefly</td><td class="ai-directory-child-label">Generative Media</td><td>Visual and media creation</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Image and short media generation for slides, handouts, examples, and visual concepts that do not include protected student data.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/canvas-tips/">Canvas</a> <span>1 application</span></th></tr>
@@ -265,9 +266,10 @@ hide:
 
 ## How to Read the Labels
 
-- **Tier 0:** Public information, such as general academic concepts, public readings, and examples that could be posted on a website.
-- **Tier 1:** Internal drafts and low-sensitivity teaching materials, such as lesson plans, rough exam ideas, and brainstorming notes.
-- **Tier 2 / FERPA:** Confidential education records, such as identifiable student work, grades, feedback, and roster information connected to performance.
-- **Training protection:** Whether this toolkit has a documented reason to believe prompts, uploads, or generated assets are protected from being used to improve future public models. Use **Unknown** when the available guide language is mixed, account-dependent, or not yet documented here.
+- **Tier 0:** Public Information, such as general academic concepts, public readings, and course materials that have already been approved for public sharing.
+- **Tier 1:** Business Information, such as internal drafts, lesson plans, rough exam ideas, brainstorming notes, and other low-sensitivity teaching materials that do not identify or evaluate a student.
+- **Tier 2 / FERPA:** Confidential Information, including education records such as identifiable student work, grades, feedback, class schedules, and roster details connected to course activity or performance.
+- **Tier 3:** Restricted Information is outside the scope of the general teaching AI workflows in this directory. This includes Social Security numbers, student health information, financial aid information, passwords, some conduct records, and restricted research data.
+- **Training protection:** Whether this toolkit has a documented reason to believe prompts, uploads, or generated assets are protected from being used to improve future public models. This is separate from the UNC tier: a protected Tier 1 tool still should not be used for FERPA records unless its guide says it supports Tier 2.
 
-For more detail, see [Data Protection Basics for Instructors](tools/data-privacy.md).
+For more detail, see [Data Protection Basics for Instructors](tools/data-privacy.md) and the official [UNC Information Classification Standard](https://policies.unc.edu/TDClient/2833/Portal/KB/Article/131244/Information-Classification-Standard).

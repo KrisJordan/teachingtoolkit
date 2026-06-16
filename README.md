@@ -1,4 +1,4 @@
-# UNC Teaching Toolkit
+# UNC AI Teaching Toolkit
 
 This branch builds the site with [Zensical](https://zensical.org/) and focuses the published experience on the AI Tool Directory plus its linked tool guides.
 

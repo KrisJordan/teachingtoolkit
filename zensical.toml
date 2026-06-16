@@ -1,5 +1,5 @@
 [project]
-site_name = "UNC Teaching Toolkit"
+site_name = "UNC AI Teaching Toolkit"
 site_url = "https://krisjordan.github.io/teachingtoolkit/"
 site_description = "A focused AI tool directory for UNC instructors."
 docs_dir = "docs"
@@ -10,18 +10,26 @@ extra_javascript = ["javascripts/ai-tool-directory.js"]
 nav = [
   { "AI Tool Directory" = "index.md" },
   { "Tool Guides" = [
-    { "Copilot 365" = "tools/copilot-365.md" },
-    { "PromptLab" = "tools/promptlab.md" },
-    { "Gradescope" = "tools/gradescope.md" },
-    { "Canvas Tips" = "tools/canvas-tips.md" },
-    { "MagicSchool.ai" = "tools/magic-school.md" },
-    { "NotebookLM" = "tools/notebooklm.md" },
-    { "Data Protection" = "tools/data-privacy.md" }
+    { "UNC Supported" = [
+      { "Copilot 365" = "tools/copilot-365.md" },
+      { "PromptLab" = "tools/promptlab.md" },
+      { "Gradescope" = "tools/gradescope.md" },
+      { "Zoom AI Companion" = "tools/zoom.md" },
+      { "Canvas Tips" = "tools/canvas-tips.md" }
+    ] },
+    { "Additional Tools" = [
+      { "NotebookLM" = "tools/notebooklm.md" },
+      { "MagicSchool.ai" = "tools/magic-school.md" }
+    ] },
+    { "Reference" = [
+      { "Data Protection" = "tools/data-privacy.md" }
+    ] }
   ] }
 ]
 
 [project.theme]
 variant = "modern"
+custom_dir = "overrides"
 font.text = "Inter"
 font.code = "JetBrains Mono"
 features = [
@@ -54,4 +62,3 @@ permalink = true
 
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
-

@@ -293,6 +293,7 @@
       return;
     }
 
+    closeMobileTOC();
     controlsPanel.classList.add("is-open");
     menuButton.setAttribute("aria-expanded", "true");
     updateStickyOffsets();
@@ -313,6 +314,7 @@
       return;
     }
 
+    closeMobileMenu();
     tocNav.classList.add("is-open");
     tocButton.setAttribute("aria-expanded", "true");
     updateStickyOffsets();
@@ -475,18 +477,31 @@
 
   function updateStickyOffsets() {
     var headerH = getHeaderHeight();
-    document.documentElement.style.setProperty("--ai-dir-controls-top", headerH + "px");
-    document.documentElement.style.setProperty("--ai-dir-thead-top", getStickyBarOffset() + "px");
+    document.documentElement.style.setProperty("--ai-dir-controls-top", toCssPx(headerH));
+    document.documentElement.style.setProperty("--ai-dir-thead-top", toCssPx(getStickyBarOffset()));
   }
 
   function getHeaderHeight() {
     var header = document.querySelector(".md-header");
-    return header ? header.offsetHeight : 48;
+    return getElementHeight(header, 48);
   }
 
   function getStickyBarOffset() {
     var bar = document.getElementById("ai-directory-sticky-bar");
-    return getHeaderHeight() + (bar ? bar.offsetHeight : 0);
+    return getHeaderHeight() + getElementHeight(bar, 0);
+  }
+
+  function getElementHeight(element, fallback) {
+    if (!element) {
+      return fallback;
+    }
+
+    var rect = element.getBoundingClientRect();
+    return rect.height || element.offsetHeight || fallback;
+  }
+
+  function toCssPx(value) {
+    return (Math.round(value * 1000) / 1000) + "px";
   }
 
   function getSectionAnchorOffset() {
