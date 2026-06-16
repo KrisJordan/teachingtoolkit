@@ -6,7 +6,7 @@ hide:
 ---
 
 <header class="ai-directory-hero">
-  <p class="ai-directory-hero__eyebrow">UNC AI Teaching Toolkit</p>
+  <p class="ai-directory-hero__eyebrow">CFE AI Teaching Toolkit</p>
   <h1>AI Tool Directory</h1>
   <p>Compare teaching-focused AI tools by campus support, activity type, data tier, and model-training protections.</p>
 </header>
@@ -101,7 +101,7 @@ hide:
   {
     "tool": "Zoom",
     "application": "AI Companion",
-    "summary": "Meeting summaries, live meeting questions, and action items for Zoom meetings where participants have been notified.",
+    "summary": "Meeting summaries, live meeting questions, and action items for Zoom meetings.",
     "supportGroup": "UNC supported",
     "activityType": "Summarization",
     "privacyTier": "Tier 1",
@@ -116,7 +116,7 @@ hide:
     "tool": "Adobe Firefly",
     "application": "Generative Media",
     "summary": "Limited Creative Cloud-based image generation for slides, handouts, examples, and visual concepts that do not include protected student data.",
-    "supportGroup": "Limited UNC access",
+    "supportGroup": "UNC supported",
     "activityType": "Visual and media creation",
     "privacyTier": "Tier 1",
     "trainingProtection": "Unknown",
@@ -228,29 +228,10 @@ hide:
     <tr><td>Gradescope</td><td class="ai-directory-child-label">AI-Assisted Grading</td><td>Assessment and grading</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Canvas-integrated grading workflows where AI can suggest answer groups while instructors and TAs make scoring decisions.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/zoom/">Zoom</a> <span>1 application</span></th></tr>
     <tr><td>Zoom</td><td class="ai-directory-child-label">AI Companion</td><td>Summarization</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>Meeting summaries, live meeting questions, and action items for Zoom meetings where participants have been notified.</td></tr>
-    <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/canvas-tips/">Canvas</a> <span>1 application</span></th></tr>
-    <tr><td>Canvas</td><td class="ai-directory-child-label">Discussion Summaries</td><td>Summarization</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Instructor-only AI summaries of Canvas discussion threads for scanning themes, questions, and follow-up opportunities inside a course.</td></tr>
-  </tbody>
-</table>
-</div>
-
-### Limited UNC Access
-
-<div class="tool-comparison-table tool-comparison-table-compact ai-directory-table">
-<table>
-  <thead>
-    <tr>
-      <th>Tool</th>
-      <th>Application</th>
-      <th>Activity Type</th>
-      <th>UNC Tier / FERPA</th>
-      <th>Training Protection</th>
-      <th>Summary</th>
-    </tr>
-  </thead>
-  <tbody>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/firefly/">Adobe Firefly</a> <span>1 application</span></th></tr>
     <tr><td>Adobe Firefly</td><td class="ai-directory-child-label">Generative Media</td><td>Visual and media creation</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Limited Creative Cloud-based image generation for slides, handouts, examples, and visual concepts that do not include protected student data.</td></tr>
+    <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/canvas-tips/">Canvas</a> <span>1 application</span></th></tr>
+    <tr><td>Canvas</td><td class="ai-directory-child-label">Discussion Summaries</td><td>Summarization</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Instructor-only AI summaries of Canvas discussion threads for scanning themes, questions, and follow-up opportunities inside a course.</td></tr>
   </tbody>
 </table>
 </div>

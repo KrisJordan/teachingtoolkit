@@ -1,5 +1,5 @@
 [project]
-site_name = "UNC AI Teaching Toolkit"
+site_name = "CFE AI Teaching Toolkit"
 site_url = "https://krisjordan.github.io/teachingtoolkit/"
 site_description = "A focused AI tool directory for UNC instructors."
 docs_dir = "docs"
@@ -15,11 +15,11 @@ nav = [
       { "PromptLab" = "tools/promptlab.md" },
       { "Gradescope" = "tools/gradescope.md" },
       { "Zoom AI Companion" = "tools/zoom.md" },
+      { "Adobe Firefly" = "tools/firefly.md" },
       { "Canvas Discussion Summaries" = "tools/canvas-tips.md" }
     ] },
     { "Additional Tools" = [
       { "NotebookLM" = "tools/notebooklm.md" },
-      { "Adobe Firefly" = "tools/firefly.md" },
       { "MagicSchool.ai" = "tools/magic-school.md" }
     ] },
     { "Reference" = [
