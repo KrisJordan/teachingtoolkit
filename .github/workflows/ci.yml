@@ -4,11 +4,16 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   deploy:
@@ -17,8 +22,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/configure-pages@v5
       - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
@@ -52,16 +57,10 @@ jobs:
               exit 1
             fi
           done
-      - name: Prepare GitHub Pages branch output
+      - name: Prepare GitHub Pages artifact
         run: |
           source .venv/bin/activate
           touch site/.nojekyll
-      - name: Publish clean gh-pages branch
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-          force_orphan: true
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site
