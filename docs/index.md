@@ -31,7 +31,7 @@ hide:
   {
     "tool": "Copilot 365",
     "application": "Chat",
-    "summary": "Campus-supported AI chat for drafting, revising, summarizing, and analyzing teaching materials inside UNC's Microsoft environment.",
+    "summary": "Draft, revise, summarize, and analyze teaching materials in UNC's supported Microsoft 365 environment.",
     "supportGroup": "UNC supported",
     "activityType": "AI chat",
     "privacyTier": "Tier 2 / FERPA",
@@ -45,7 +45,7 @@ hide:
   {
     "tool": "Copilot 365",
     "application": "Instructor Tools",
-    "summary": "Teaching-specific lesson plan and rubric tools for workflows that may involve protected student records.",
+    "summary": "Create editable lesson plans and rubrics in UNC's supported Microsoft 365 environment.",
     "supportGroup": "UNC supported",
     "activityType": "Instructor planning",
     "privacyTier": "Tier 2 / FERPA",
@@ -59,7 +59,7 @@ hide:
   {
     "tool": "PromptLab",
     "application": "Chat",
-    "summary": "UNC Libraries' multi-model chat space for brainstorming, comparing models, and drafting with low-sensitivity teaching materials.",
+    "summary": "Compare leading AI models for brainstorming, drafting, and discussing low-sensitivity course materials.",
     "supportGroup": "UNC supported",
     "activityType": "AI chat",
     "privacyTier": "Tier 1",
@@ -73,7 +73,7 @@ hide:
   {
     "tool": "PromptLab",
     "application": "Agents",
-    "summary": "No-code course agents that can use attached course context for study support, FAQs, and structured practice without FERPA data.",
+    "summary": "Build course-specific AI agents with your instructions and materials for guided practice and FAQs.",
     "supportGroup": "UNC supported",
     "activityType": "Course agents",
     "privacyTier": "Tier 1",
@@ -87,7 +87,7 @@ hide:
   {
     "tool": "Gradescope",
     "application": "AI-Assisted Grading",
-    "summary": "Canvas-integrated grading workflows where AI can suggest answer groups while instructors and TAs make scoring decisions.",
+    "summary": "Group similar student responses so course teams can grade consistently and reduce repetitive scoring.",
     "supportGroup": "UNC supported",
     "activityType": "Assessment and grading",
     "privacyTier": "Tier 2 / FERPA",
@@ -101,7 +101,7 @@ hide:
   {
     "tool": "Zoom",
     "application": "AI Companion",
-    "summary": "Meeting summaries, live meeting questions, and action items for Zoom meetings.",
+    "summary": "Generate draft summaries, catch-up answers, and action items for teaching meetings in Zoom.",
     "supportGroup": "UNC supported",
     "activityType": "Summarization",
     "privacyTier": "Tier 1",
@@ -115,7 +115,7 @@ hide:
   {
     "tool": "Adobe Firefly",
     "application": "Generative Media",
-    "summary": "Limited Creative Cloud-based image generation for slides, handouts, examples, and visual concepts that do not include protected student data.",
+    "summary": "Create and edit public or low-sensitivity images for slides, handouts, and visual concepts.",
     "supportGroup": "UNC supported",
     "activityType": "Visual and media creation",
     "privacyTier": "Tier 1",
@@ -129,7 +129,7 @@ hide:
   {
     "tool": "Canvas",
     "application": "Discussion Summaries",
-    "summary": "Instructor-only AI summaries of Canvas discussion threads for scanning themes, questions, and follow-up opportunities inside a course.",
+    "summary": "Surface themes, questions, and confusion points in Canvas discussions before deciding where to read closely.",
     "supportGroup": "UNC supported",
     "activityType": "Summarization",
     "privacyTier": "Tier 2 / FERPA",
@@ -143,7 +143,7 @@ hide:
   {
     "tool": "NotebookLM",
     "application": "Source-Grounded Notebooks",
-    "summary": "Document-grounded Q&A, study guides, summaries, flashcards, and quizzes using sources you upload.",
+    "summary": "Create source-grounded summaries, study guides, flashcards, and quizzes from uploaded course materials.",
     "supportGroup": "Not UNC supported",
     "activityType": "Student study support",
     "privacyTier": "Tier 1",
@@ -157,7 +157,7 @@ hide:
   {
     "tool": "MagicSchool.ai",
     "application": "Teaching Generators",
-    "summary": "Form-based generators for lesson plans, group work, rubrics, worksheets, quizzes, and other draft teaching materials.",
+    "summary": "Draft lesson plans, rubrics, quizzes, worksheets, and activities from structured teaching prompts.",
     "supportGroup": "Not UNC supported",
     "activityType": "Instructor planning",
     "privacyTier": "Tier 1",
@@ -171,7 +171,7 @@ hide:
   {
     "tool": "Claude",
     "application": "General Chat",
-    "summary": "A consumer or individually managed AI chat option for public examples, general brainstorming, and non-sensitive drafting.",
+    "summary": "Use consumer AI chat for public examples, brainstorming, and non-sensitive drafting.",
     "supportGroup": "Not UNC supported",
     "activityType": "AI chat",
     "privacyTier": "Tier 0",
@@ -185,7 +185,7 @@ hide:
   {
     "tool": "ChatGPT",
     "application": "General Chat",
-    "summary": "A consumer or individually managed AI chat option for public examples, general brainstorming, and non-sensitive drafting.",
+    "summary": "Use consumer AI chat for public examples, brainstorming, and non-sensitive drafting.",
     "supportGroup": "Not UNC supported",
     "activityType": "AI chat",
     "privacyTier": "Tier 0",
@@ -219,19 +219,19 @@ hide:
   </thead>
   <tbody>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/copilot-365/">Copilot 365</a> <span>2 applications</span></th></tr>
-    <tr><td>Copilot 365</td><td class="ai-directory-child-label">Chat</td><td>AI chat</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-protected">Protected</span></td><td>Campus-supported AI chat for drafting, revising, summarizing, and analyzing teaching materials inside UNC's Microsoft environment.</td></tr>
-    <tr><td>Copilot 365</td><td class="ai-directory-child-label">Instructor Tools</td><td>Instructor planning</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-protected">Protected</span></td><td>Teaching-specific lesson plan and rubric tools for workflows that may involve protected student records.</td></tr>
+    <tr><td>Copilot 365</td><td class="ai-directory-child-label">Chat</td><td>AI chat</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-protected">Protected</span></td><td>Draft, revise, summarize, and analyze teaching materials in UNC's supported Microsoft 365 environment.</td></tr>
+    <tr><td>Copilot 365</td><td class="ai-directory-child-label">Instructor Tools</td><td>Instructor planning</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-protected">Protected</span></td><td>Create editable lesson plans and rubrics in UNC's supported Microsoft 365 environment.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/promptlab/">PromptLab</a> <span>2 applications</span></th></tr>
-    <tr><td>PromptLab</td><td class="ai-directory-child-label">Chat</td><td>AI chat</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>UNC Libraries' multi-model chat space for brainstorming, comparing models, and drafting with low-sensitivity teaching materials.</td></tr>
-    <tr><td>PromptLab</td><td class="ai-directory-child-label">Agents</td><td>Course agents</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>No-code course agents that can use attached course context for study support, FAQs, and structured practice without FERPA data.</td></tr>
+    <tr><td>PromptLab</td><td class="ai-directory-child-label">Chat</td><td>AI chat</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>Compare leading AI models for brainstorming, drafting, and discussing low-sensitivity course materials.</td></tr>
+    <tr><td>PromptLab</td><td class="ai-directory-child-label">Agents</td><td>Course agents</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>Build course-specific AI agents with your instructions and materials for guided practice and FAQs.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/gradescope/">Gradescope</a> <span>1 application</span></th></tr>
-    <tr><td>Gradescope</td><td class="ai-directory-child-label">AI-Assisted Grading</td><td>Assessment and grading</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Canvas-integrated grading workflows where AI can suggest answer groups while instructors and TAs make scoring decisions.</td></tr>
+    <tr><td>Gradescope</td><td class="ai-directory-child-label">AI-Assisted Grading</td><td>Assessment and grading</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Group similar student responses so course teams can grade consistently and reduce repetitive scoring.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/zoom/">Zoom</a> <span>1 application</span></th></tr>
-    <tr><td>Zoom</td><td class="ai-directory-child-label">AI Companion</td><td>Summarization</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>Meeting summaries, live meeting questions, and action items for Zoom meetings where participants have been notified.</td></tr>
+    <tr><td>Zoom</td><td class="ai-directory-child-label">AI Companion</td><td>Summarization</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>Generate draft summaries, catch-up answers, and action items for teaching meetings in Zoom.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/firefly/">Adobe Firefly</a> <span>1 application</span></th></tr>
-    <tr><td>Adobe Firefly</td><td class="ai-directory-child-label">Generative Media</td><td>Visual and media creation</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Limited Creative Cloud-based image generation for slides, handouts, examples, and visual concepts that do not include protected student data.</td></tr>
+    <tr><td>Adobe Firefly</td><td class="ai-directory-child-label">Generative Media</td><td>Visual and media creation</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Create and edit public or low-sensitivity images for slides, handouts, and visual concepts.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/canvas-tips/">Canvas</a> <span>1 application</span></th></tr>
-    <tr><td>Canvas</td><td class="ai-directory-child-label">Discussion Summaries</td><td>Summarization</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Instructor-only AI summaries of Canvas discussion threads for scanning themes, questions, and follow-up opportunities inside a course.</td></tr>
+    <tr><td>Canvas</td><td class="ai-directory-child-label">Discussion Summaries</td><td>Summarization</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Surface themes, questions, and confusion points in Canvas discussions before deciding where to read closely.</td></tr>
   </tbody>
 </table>
 </div>
@@ -252,12 +252,12 @@ hide:
   </thead>
   <tbody>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/notebooklm/">NotebookLM</a> <span>1 application</span></th></tr>
-    <tr><td>NotebookLM</td><td class="ai-directory-child-label">Source-Grounded Notebooks</td><td>Student study support</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Document-grounded Q&amp;A, study guides, summaries, flashcards, and quizzes using sources you upload.</td></tr>
+    <tr><td>NotebookLM</td><td class="ai-directory-child-label">Source-Grounded Notebooks</td><td>Student study support</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Create source-grounded summaries, study guides, flashcards, and quizzes from uploaded course materials.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/magic-school/">MagicSchool.ai</a> <span>1 application</span></th></tr>
-    <tr><td>MagicSchool.ai</td><td class="ai-directory-child-label">Teaching Generators</td><td>Instructor planning</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Form-based generators for lesson plans, group work, rubrics, worksheets, quizzes, and other draft teaching materials.</td></tr>
+    <tr><td>MagicSchool.ai</td><td class="ai-directory-child-label">Teaching Generators</td><td>Instructor planning</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Draft lesson plans, rubrics, quizzes, worksheets, and activities from structured teaching prompts.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup">LLM Chats <span>2 applications</span></th></tr>
-    <tr><td>Claude</td><td class="ai-directory-child-label"><a href="https://claude.ai/">General Chat</a></td><td>AI chat</td><td><span class="tier-badge tier-0">0</span> Tier 0</td><td><span class="training-badge training-not-protected">Not protected</span></td><td>A consumer or individually managed AI chat option for public examples, general brainstorming, and non-sensitive drafting.</td></tr>
-    <tr><td>ChatGPT</td><td class="ai-directory-child-label"><a href="https://chatgpt.com/">General Chat</a></td><td>AI chat</td><td><span class="tier-badge tier-0">0</span> Tier 0</td><td><span class="training-badge training-not-protected">Not protected</span></td><td>A consumer or individually managed AI chat option for public examples, general brainstorming, and non-sensitive drafting.</td></tr>
+    <tr><td>Claude</td><td class="ai-directory-child-label"><a href="https://claude.ai/">General Chat</a></td><td>AI chat</td><td><span class="tier-badge tier-0">0</span> Tier 0</td><td><span class="training-badge training-not-protected">Not protected</span></td><td>Use consumer AI chat for public examples, brainstorming, and non-sensitive drafting.</td></tr>
+    <tr><td>ChatGPT</td><td class="ai-directory-child-label"><a href="https://chatgpt.com/">General Chat</a></td><td>AI chat</td><td><span class="tier-badge tier-0">0</span> Tier 0</td><td><span class="training-badge training-not-protected">Not protected</span></td><td>Use consumer AI chat for public examples, brainstorming, and non-sensitive drafting.</td></tr>
   </tbody>
 </table>
 </div>
