@@ -15,10 +15,11 @@ nav = [
       { "PromptLab" = "tools/promptlab.md" },
       { "Gradescope" = "tools/gradescope.md" },
       { "Zoom AI Companion" = "tools/zoom.md" },
-      { "Canvas Tips" = "tools/canvas-tips.md" }
+      { "Canvas Discussion Summaries" = "tools/canvas-tips.md" }
     ] },
     { "Additional Tools" = [
       { "NotebookLM" = "tools/notebooklm.md" },
+      { "Adobe Firefly" = "tools/firefly.md" },
       { "MagicSchool.ai" = "tools/magic-school.md" }
     ] },
     { "Reference" = [

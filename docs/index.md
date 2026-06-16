@@ -103,7 +103,7 @@ hide:
     "application": "AI Companion",
     "summary": "Meeting summaries, live meeting questions, and action items for Zoom meetings where participants have been notified.",
     "supportGroup": "UNC supported",
-    "activityType": "Meeting support",
+    "activityType": "Summarization",
     "privacyTier": "Tier 1",
     "trainingProtection": "Protected",
     "trainingNote": "Zoom states that customer audio, video, chat, screen sharing, attachments, and similar customer content are not used to train Zoom's or third-party AI models.",
@@ -115,26 +115,26 @@ hide:
   {
     "tool": "Adobe Firefly",
     "application": "Generative Media",
-    "summary": "Image and short media generation for slides, handouts, examples, and visual concepts that do not include protected student data.",
-    "supportGroup": "UNC supported",
+    "summary": "Limited Creative Cloud-based image generation for slides, handouts, examples, and visual concepts that do not include protected student data.",
+    "supportGroup": "Limited UNC access",
     "activityType": "Visual and media creation",
     "privacyTier": "Tier 1",
     "trainingProtection": "Unknown",
-    "trainingNote": "Use for public or low-sensitivity teaching assets; this toolkit does not yet document UNC-specific upload or training terms.",
+    "trainingNote": "Use only for public or low-sensitivity teaching assets; access is limited and this toolkit does not document Firefly as appropriate for FERPA records.",
     "parentTool": "Adobe Firefly",
     "displayGroup": "Adobe Firefly",
-    "link": "https://www.adobe.com/products/firefly.html",
+    "link": "tools/firefly/",
     "sortOrder": 70
   },
   {
     "tool": "Canvas",
-    "application": "Discussion Summary",
-    "summary": "Course discussion summaries inside Canvas that help instructors scan themes and unanswered questions in class conversations.",
+    "application": "Discussion Summaries",
+    "summary": "Instructor-only AI summaries of Canvas discussion threads for scanning themes, questions, and follow-up opportunities inside a course.",
     "supportGroup": "UNC supported",
-    "activityType": "Canvas course workflow",
+    "activityType": "Summarization",
     "privacyTier": "Tier 2 / FERPA",
     "trainingProtection": "Unknown",
-    "trainingNote": "Canvas is the supported course space, but this toolkit does not yet document model-training terms for Discussion Summary.",
+    "trainingNote": "Canvas is the supported course space, but this toolkit does not yet document model-training terms for Discussion Summaries.",
     "parentTool": "Canvas",
     "displayGroup": "Canvas",
     "link": "tools/canvas-tips/",
@@ -227,11 +227,30 @@ hide:
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/gradescope/">Gradescope</a> <span>1 application</span></th></tr>
     <tr><td>Gradescope</td><td class="ai-directory-child-label">AI-Assisted Grading</td><td>Assessment and grading</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Canvas-integrated grading workflows where AI can suggest answer groups while instructors and TAs make scoring decisions.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/zoom/">Zoom</a> <span>1 application</span></th></tr>
-    <tr><td>Zoom</td><td class="ai-directory-child-label">AI Companion</td><td>Meeting support</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>Meeting summaries, live meeting questions, and action items for Zoom meetings where participants have been notified.</td></tr>
-    <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="https://www.adobe.com/products/firefly.html">Adobe Firefly</a> <span>1 application</span></th></tr>
-    <tr><td>Adobe Firefly</td><td class="ai-directory-child-label">Generative Media</td><td>Visual and media creation</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Image and short media generation for slides, handouts, examples, and visual concepts that do not include protected student data.</td></tr>
+    <tr><td>Zoom</td><td class="ai-directory-child-label">AI Companion</td><td>Summarization</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-protected">Protected</span></td><td>Meeting summaries, live meeting questions, and action items for Zoom meetings where participants have been notified.</td></tr>
     <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/canvas-tips/">Canvas</a> <span>1 application</span></th></tr>
-    <tr><td>Canvas</td><td class="ai-directory-child-label">Discussion Summary</td><td>Canvas course workflow</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Course discussion summaries inside Canvas that help instructors scan themes and unanswered questions in class conversations.</td></tr>
+    <tr><td>Canvas</td><td class="ai-directory-child-label">Discussion Summaries</td><td>Summarization</td><td><span class="tier-badge tier-2">2</span> Tier 2 / FERPA</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Instructor-only AI summaries of Canvas discussion threads for scanning themes, questions, and follow-up opportunities inside a course.</td></tr>
+  </tbody>
+</table>
+</div>
+
+### Limited UNC Access
+
+<div class="tool-comparison-table tool-comparison-table-compact ai-directory-table">
+<table>
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Application</th>
+      <th>Activity Type</th>
+      <th>UNC Tier / FERPA</th>
+      <th>Training Protection</th>
+      <th>Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="ai-directory-parent-row"><th colspan="6" scope="rowgroup"><a href="tools/firefly/">Adobe Firefly</a> <span>1 application</span></th></tr>
+    <tr><td>Adobe Firefly</td><td class="ai-directory-child-label">Generative Media</td><td>Visual and media creation</td><td><span class="tier-badge tier-1">1</span> Tier 1</td><td><span class="training-badge training-conditional">Unknown</span></td><td>Limited Creative Cloud-based image generation for slides, handouts, examples, and visual concepts that do not include protected student data.</td></tr>
   </tbody>
 </table>
 </div>

@@ -6,7 +6,7 @@ on:
       - main
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -30,6 +30,38 @@ jobs:
         run: uv sync --dev
       - name: Build site with Zensical
         run: uv run zensical build --clean
+      - name: Verify retired docs are not searchable
+        run: |
+          source .venv/bin/activate
+          find docs/.scaffold -name '*.md' ! -path 'docs/.scaffold/config/*' | while read -r retired_doc; do
+            location="${retired_doc#docs/.scaffold/}"
+
+            if [ "$location" = "index.md" ]; then
+              continue
+            fi
+
+            location="${location%.md}"
+
+            case "$location" in
+              */index) location="${location%/index}/" ;;
+              *) location="${location}/" ;;
+            esac
+
+            if grep -qF "\"location\":\"$location\"" site/search.json; then
+              echo "::error::Retired scaffold document is present in site/search.json: $retired_doc"
+              exit 1
+            fi
+          done
+      - name: Prepare GitHub Pages branch output
+        run: |
+          source .venv/bin/activate
+          touch site/.nojekyll
+      - name: Publish clean gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          force_orphan: true
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site

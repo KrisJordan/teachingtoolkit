@@ -53,7 +53,7 @@
     support: {
       label: "UNC Support",
       field: "supportGroup",
-      order: ["UNC supported", "Not UNC supported"]
+      order: ["UNC supported", "Limited UNC access", "Not UNC supported"]
     },
     activityType: {
       label: "Type of Activity",
@@ -61,7 +61,7 @@
       order: [
         "Planning",
         "Assessment",
-        "Administrative",
+        "Summarization",
         "Student Tools",
         "Chat",
         "Media Creation"
@@ -939,9 +939,6 @@
     }
     if (activityType === "Assessment and grading") {
       return "Assessment";
-    }
-    if (activityType === "Meeting support" || activityType === "Canvas course workflow") {
-      return "Administrative";
     }
     if (activityType === "Student study support" || activityType === "Course agents") {
       return "Student Tools";
