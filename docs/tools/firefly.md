@@ -12,9 +12,9 @@ Adobe Firefly is Adobe's generative media tool for creating images, editing imag
 
     For image generation in everyday teaching workflows, start with [Copilot 365](copilot-365.md) in UNC's Microsoft 365 environment. Copilot has strong image generation tools, is UNC supported, and is available with an active Onyen without a separate access request.
 
-Use Firefly sparingly when you need Adobe's image-centered features for public or low-sensitivity teaching assets, such as a decorative image, visual mood board, non-sensitive image edit, or early visual concept. Firefly models are trained on licensed content, such as Adobe Stock, and public domain content where copyright has expired. That training approach is useful for copyright and commercial-safety questions, but it does not make Firefly outputs reliable as factual teaching diagrams or slide content.
+Use Firefly only for public or low-sensitivity teaching materials, such as decorative images, mood boards, simple image edits, or early visual concepts. Adobe trains Firefly on licensed and public-domain content, which addresses copyright questions. Even so, Firefly should not be trusted to create accurate diagrams, labels, or slide content for teaching.
 
-Eligible instructional faculty and instructional staff can request Creative Cloud at no cost if access is not already active. For ordinary image generation, prompts should usually describe general course concepts rather than student-specific information.
+Eligible instructional faculty and instructional staff can request Creative Cloud at no cost if access is not already active.
 
 ## Access for Instructors
 
@@ -81,7 +81,7 @@ Firefly can help brainstorm visual metaphors, scene compositions, or alternative
 
 ## Data Privacy
 
-Firefly image-generation prompts for teaching should not need FERPA-protected student records. It is not capable of producing data visualizations from raw input data. You must not use sensitive information in Adobe cloud-based storage, including PHI and PCI. For teaching work, keep student education records out of Firefly prompts, uploads, generated assets, and Adobe cloud storage.
+Firefly image-generation prompts for teaching should not need FERPA-protected student records. It is not capable of producing data visualizations from raw input data. You must not use sensitive information in Adobe cloud-based storage. For teaching work, keep student education records out of Firefly prompts, uploads, generated assets, and Adobe cloud storage.
 
 ## Cost and Access
 
