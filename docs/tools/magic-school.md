@@ -14,7 +14,7 @@ There are over 50+ AI tools ("generators") tailored to specific teaching tasks. 
 
 ## Demonstration Video
 
-For a quick preview of how this platform works, this 3-minute demonstration walks you through using the rubric tool to generate a rough draft of a grading rubric for an assignment.
+For a quick preview of how this platform works, watch the 3-minute demonstration for an example of using the rubric tool to generate a rough draft of a grading rubric for an assignment.
 
 <div class="video-container">
   <iframe 

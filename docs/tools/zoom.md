@@ -26,9 +26,9 @@ Treat Zoom AI Companion output as a draft. Summaries and answers can omit import
 4. Review the settings for **Meeting Summary** and **Meeting Questions**
 5. Choose whether each feature should start automatically or only when you start it during a meeting you host
 
-Start conservatively. For most teaching meetings, a good default is to start AI Companion features manually and share summaries with **Only me (meeting host)** first. [UNC's Zoom AI Companion Overview](https://tdx.unc.edu/TDClient/33/Portal/KB/Article/392/Zoom-AI-Companion-Overview) specifically recommends this approach so you can review and edit the summary before sending it to participants.
+Start conservatively. For most teaching meetings, a good default is to start AI Companion features manually and share summaries with **Only me (meeting host)** first so you can review and edit the summary before sending it to participants.
 
-[UNC ITS's Zoom AI Companion tips](https://its.unc.edu/2025/03/27/5-zoom-ai-companion-tips/) page walks through the campus-specific **Settings** > **AI Companion** path and explains that these settings apply to meetings you host.
+These settings apply only to meetings you host. When you attend someone else's Zoom meeting, the host's AI Companion settings and in-meeting choices determine whether AI Companion runs.
 
 ### Use It During a Meeting You Host
 
@@ -40,7 +40,7 @@ If sensitive student information, personnel matters, health information, financi
 
 ### Draft Post-meeting Notes
 
-Zoom calls this feature **Meeting Summary with AI Companion**. When the host enables it, Zoom uses speech-to-text data from the meeting to generate a summary after the meeting ends. Summaries can include key points, decisions, and action items, and they can be shared by email or through Zoom Chat when continuous meeting chat is enabled.
+The main summary feature is **Meeting Summary with AI Companion**. When the host enables it, Zoom uses speech-to-text data from the meeting to generate a summary after the meeting ends. Summaries can include key points, decisions, and action items, and they can be shared by email or through Zoom Chat when continuous meeting chat is enabled.
 
 Use the draft as a starting point for your own follow-up. Check names, dates, decisions, and action items against your notes before sending the summary to students, a teaching team, or campus partners.
 
@@ -83,7 +83,7 @@ Zoom AI Companion does not:
 
 ## Data Privacy
 
-[UNC's Zoom AI Companion Overview](https://tdx.unc.edu/TDClient/33/Portal/KB/Article/392/Zoom-AI-Companion-Overview) advises instructors to notify participants before enabling Zoom AI Companion. If AI Companion starts automatically, Zoom displays a notice as participants join; if you start it manually, tell participants verbally or in chat.
+Notify participants before enabling Zoom AI Companion. If AI Companion starts automatically, Zoom displays a notice as participants join; if you start it manually, tell participants verbally or in chat.
 
 Zoom meetings that include identifiable student participation, questions, advising details, coursework, attendance, or performance information may involve FERPA-protected education records. AI-generated summaries can make that information easier to copy or forward, so keep summaries in appropriate UNC systems, share only what is needed, and remove student-identifying details when they are not necessary for the teaching purpose.
 
@@ -98,7 +98,7 @@ Be especially careful with sensitive student, employee, donor, legal, health, or
 - PHI may only be shared in meetings held in a HIPAA-protected Zoom account.
 - PCI/payment card data and Social Security numbers should never be shared in Zoom.
 
-Zoom states that it does not use customer audio, video, chat, screen sharing, attachments, or similar customer content to train Zoom's or third-party AI models. Zoom AI Companion features still process meeting data to provide the requested AI feature, and Zoom notes that some features may use third-party AI model providers.
+Zoom does not use customer audio, video, chat, screen sharing, attachments, or similar customer content to train Zoom's or third-party AI models. Zoom AI Companion features still process meeting data to provide the requested AI feature, and some features may use third-party AI model providers.
 
 ## Cost and Access
 

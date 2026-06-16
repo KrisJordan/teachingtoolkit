@@ -18,7 +18,7 @@ Use it as a first pass over a course discussion, not as the final account of wha
 
 !!! info "Canvas Discussion Summaries is off by default"
 
-    [UNC Educational Technologies](https://edtech.unc.edu/2025/08/new-in-canvas-discussion-summaries/) notes that Discussion Summaries must be enabled separately in each Canvas course. See the instructions below for enabling it in your course.
+    Discussion Summaries must be enabled separately in each Canvas course. See the instructions below for enabling it in your course.
 
 ## Access for Instructors
 
@@ -63,7 +63,7 @@ The strongest prompts keep the task narrow and pedagogical. Ask for patterns acr
 
 ### Notice Tone With Care
 
-UNC's guidance says Discussion Summaries can identify key takeaways, themes, language, and tone. Tone summaries can be useful after an icebreaker, reading response, debate, or reflection activity where you want to understand the overall shape of the conversation.
+Discussion Summaries can identify key takeaways, themes, language, and tone. Tone summaries can be useful after an icebreaker, reading response, debate, or reflection activity where you want to understand the overall shape of the conversation.
 
 Treat tone analysis as a cue for your own review, not as evidence of a student's intent, emotion, or character. If a thread seems tense, confusing, or unexpectedly quiet, read the posts directly before deciding how to respond.
 
@@ -105,7 +105,7 @@ Canvas Discussion Summaries does not:
 - summarize attached files or linked web pages
 - create images or other media from the discussion
 
-UNC's documentation also notes a limit of **25 summaries per user per day** across courses.
+Canvas limits instructors to **25 summaries per user per day** across courses.
 
 ## Data Privacy
 
@@ -124,5 +124,6 @@ Canvas Discussion Summaries is available at no additional cost in UNC Canvas cou
 ## Source Links
 
 - [Instructure Canvas Instructor Guide: IgniteAI Summaries for Discussions](https://community.instructure.com/en/kb/articles/660815-how-do-i-use-igniteai-summaries-for-discussions-as-an-instructor) - Canvas steps, prompt field, summary display, and daily limit
+- [UNC Educational Technologies: New in Canvas! Discussion Summaries](https://edtech.unc.edu/2025/08/new-in-canvas-discussion-summaries/) - UNC availability notes, instructor-role access, and limitations
 - [Data Protection Basics for Instructors](data-privacy.md) - Instructor-facing guidance on FERPA, Tier 2 data, and AI tool choices
 - [UNC Office of the Provost AI resources](https://ai.unc.edu/) - Campus resources and guidance on generative AI

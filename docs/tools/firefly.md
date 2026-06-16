@@ -12,9 +12,9 @@ Adobe Firefly is Adobe's generative media tool for creating images, editing imag
 
     For image generation in everyday teaching workflows, start with [Copilot 365](copilot-365.md) in UNC's Microsoft 365 environment. Copilot has strong image generation tools, is UNC supported, and is available with an active Onyen without a separate access request.
 
-Use Firefly sparingly when you need Adobe's image-centered features for public or low-sensitivity teaching assets, such as a decorative image, visual mood board, non-sensitive image edit, or early visual concept. Adobe describes Firefly models as trained on licensed content, such as Adobe Stock, and public domain content where copyright has expired. That training approach is useful for copyright and commercial-safety questions, but it does not make Firefly outputs reliable as factual teaching diagrams or slide content.
+Use Firefly sparingly when you need Adobe's image-centered features for public or low-sensitivity teaching assets, such as a decorative image, visual mood board, non-sensitive image edit, or early visual concept. Firefly models are trained on licensed content, such as Adobe Stock, and public domain content where copyright has expired. That training approach is useful for copyright and commercial-safety questions, but it does not make Firefly outputs reliable as factual teaching diagrams or slide content.
 
-UNC's Creative Cloud documentation provides no-cost access for eligible instructional faculty and instructional staff, but access must be requested if it is not already active. For ordinary image generation, prompts should usually describe general course concepts rather than student-specific information.
+Eligible instructional faculty and instructional staff can request Creative Cloud at no cost if access is not already active. For ordinary image generation, prompts should usually describe general course concepts rather than student-specific information.
 
 ## Access for Instructors
 
@@ -30,7 +30,7 @@ UNC instructors who do not already have Creative Cloud access can request it thr
 6. Describe your instructional use if asked
 7. Submit the request
 
-UNC's request documentation says requests can take up to **5 business days** to complete. If you already have Creative Cloud access and only need to use Firefly, you can go directly to Firefly.
+Requests can take up to **5 business days** to complete. If you already have Creative Cloud access and only need to use Firefly, you can go directly to Firefly.
 
 ### Use Firefly After Access Is Active
 
@@ -55,9 +55,9 @@ With standard UNC instructor access, the available non-premium Firefly image mod
 | Firefly Image 4 | Best of the available non-premium Firefly options. Use it only for low-stakes illustrative images, simple visual concepts, and basic photo-style objects that do not need accurate labels, text, diagrams, or disciplinary detail. |
 | Firefly Image 3 | Older than Image 4. Use only as a fallback or comparison model for quick ideation or style exploration. |
 
-In Firefly's model menu, a purple crown marks a premium model or feature. Adobe's [generative AI features list](https://helpx.adobe.com/creative-cloud/apps/generative-ai/creative-cloud-generative-ai-features.html) notes that many Text to Image model choices, such as Firefly Image 4 Ultra, and partner models are premium generative features.
+In Firefly's model menu, a purple crown marks a premium model or feature. Many Text to Image model choices, such as Firefly Image 4 Ultra, and partner models are premium generative features.
 
-If you select a premium model, Firefly may show a red message saying you can contact your admin to buy a plan with premium feature access. That message means the feature is outside standard UNC instructor access. UNC IT support has indicated that premium Firefly features are not supported through the standard UNC Creative Cloud license and would require departmental licensing before use.
+If you select a premium model, Firefly may show a red message asking you to contact your admin to buy a plan with premium feature access. That message means the feature is outside standard UNC instructor access. Premium Firefly features are not supported through the standard UNC Creative Cloud license and require departmental licensing before use.
 
 For state of the art image generation without a Creative Cloud request or departmental Firefly licensing, use [Copilot 365](copilot-365.md). [Copilot Chat](https://its.unc.edu/ai/copilot/) is a centrally supported generative AI tool available to users with an active Onyen.
 
@@ -92,7 +92,7 @@ Firefly is available to instructors through UNC Adobe Creative Cloud access:
 
 ## Notes About Firefly Outputs
 
-Adobe says current Firefly generative AI models are trained on licensed content, such as Adobe Stock, and public domain content where copyright has expired. Adobe has also described its first commercially released Firefly model as trained on Adobe Stock images, openly licensed content, and public domain content where copyright has expired. UNC ITS notes that Firefly can apply content credentials to some AI-generated or AI-edited content, making it easier to identify that AI was used.
+Current Firefly generative AI models are trained on licensed content, such as Adobe Stock, and public domain content where copyright has expired. The first commercially released Firefly model was trained on Adobe Stock images, openly licensed content, and public domain content where copyright has expired. Firefly can apply content credentials to some AI-generated or AI-edited content, making it easier to identify that AI was used.
 
 As with any image generator, review outputs carefully before using them in class. Check for visual inaccuracies, cultural stereotypes, incorrect text, accessibility problems, and misleading representations of people, places, or course concepts. Do not treat Firefly-generated diagrams or slide-like images as accurate teaching materials without rebuilding and verifying them.
 
@@ -102,4 +102,5 @@ As with any image generator, review outputs carefully before using them in class
 - [Adobe Creative Cloud: Request an Enterprise License for Instructional Use](https://tdx.unc.edu/TDClient/33/Portal/KB/Article/82/Adobe-Creative-Cloud-Request-an-Enterprise-License-for-Instructional-Use) - Instructor request instructions
 - [Adobe Creative Cloud: Install](https://tdx.unc.edu/TDClient/33/Portal/KB/Article/57/Adobe-Creative-Cloud-Install) - UNC installation and sign-in steps
 - [Adobe Firefly FAQ](https://helpx.adobe.com/firefly/web/get-started/learn-the-basics/adobe-firefly-faq.html) - Adobe's Firefly training-data statements
+- [Adobe Creative Cloud Generative AI features](https://helpx.adobe.com/creative-cloud/apps/generative-ai/creative-cloud-generative-ai-features.html) - Standard and premium generative AI feature list
 - [Copilot 365 Teaching Tools](copilot-365.md) - Recommended starting point for UNC instructors

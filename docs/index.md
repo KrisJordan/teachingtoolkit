@@ -64,7 +64,7 @@ hide:
     "activityType": "AI chat",
     "privacyTier": "Tier 1",
     "trainingProtection": "Protected",
-    "trainingNote": "PromptLab states that data is not shared with external providers and is not used to train public AI models.",
+    "trainingNote": "PromptLab data is not shared with external providers and is not used to train public AI models.",
     "parentTool": "PromptLab",
     "displayGroup": "PromptLab",
     "link": "tools/promptlab/",
@@ -106,7 +106,7 @@ hide:
     "activityType": "Summarization",
     "privacyTier": "Tier 1",
     "trainingProtection": "Protected",
-    "trainingNote": "Zoom states that customer audio, video, chat, screen sharing, attachments, and similar customer content are not used to train Zoom's or third-party AI models.",
+    "trainingNote": "Zoom customer audio, video, chat, screen sharing, attachments, and similar customer content are not used to train Zoom's or third-party AI models.",
     "parentTool": "Zoom",
     "displayGroup": "Zoom",
     "link": "tools/zoom/",
@@ -148,7 +148,7 @@ hide:
     "activityType": "Student study support",
     "privacyTier": "Tier 1",
     "trainingProtection": "Unknown",
-    "trainingNote": "NotebookLM states uploaded content is not used for model training unless feedback is provided; do not upload FERPA records.",
+    "trainingNote": "NotebookLM uploaded content is not used for model training unless feedback is provided; do not upload FERPA records.",
     "parentTool": "NotebookLM",
     "displayGroup": "NotebookLM",
     "link": "tools/notebooklm/",
@@ -270,6 +270,6 @@ hide:
 - **Tier 1:** Business Information, such as internal drafts, lesson plans, rough exam ideas, brainstorming notes, and other low-sensitivity teaching materials that do not identify or evaluate a student.
 - **Tier 2 / FERPA:** Confidential Information, including education records such as identifiable student work, grades, feedback, class schedules, and roster details connected to course activity or performance.
 - **Tier 3:** Restricted Information is outside the scope of the general teaching AI workflows in this directory. This includes Social Security numbers, student health information, financial aid information, passwords, some conduct records, and restricted research data.
-- **Training protection:** Whether this toolkit has a documented reason to believe prompts, uploads, or generated assets are protected from being used to improve future public models. This is separate from the UNC tier: a protected Tier 1 tool still should not be used for FERPA records unless its guide says it supports Tier 2.
+- **Training protection:** Whether this toolkit has a documented reason to believe prompts, uploads, or generated assets are protected from being used to improve future public models. This is separate from the UNC tier: a protected Tier 1 tool still should not be used for FERPA records unless its guide explicitly supports Tier 2.
 
 For more detail, see [Data Protection Basics for Instructors](tools/data-privacy.md) and the official [UNC Information Classification Standard](https://policies.unc.edu/TDClient/2833/Portal/KB/Article/131244/Information-Classification-Standard).

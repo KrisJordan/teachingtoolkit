@@ -12,7 +12,7 @@ This matters for instructors because NotebookLM it reduces the likelihood of hal
 
 ## Demonstration Video
 
-For a quick overview of NotebookLM and how UNC instructors can use it, this demonstration walks through uploading course materials and asking questions that generate useful teaching artifacts.
+For a quick overview of NotebookLM and how UNC instructors can use it, watch the demonstration for examples of uploading course materials and asking questions that generate useful teaching artifacts.
 
 <div class="video-container">
   <iframe 

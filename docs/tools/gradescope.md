@@ -106,7 +106,7 @@ That makes Gradescope useful not just for grading faster, but for adjusting inst
 
 ## Data Privacy
 
-Gradescope handles student records and is **FERPA compliant**. It also states that it does not claim rights to your assignments or rubrics beyond what is necessary to provide the service, and that student records can be deleted upon request.
+Gradescope handles student records and is **FERPA compliant**. Your assignments and rubrics remain yours; Gradescope uses them only as needed to provide the service, and student records can be deleted upon request.
 
 ## Cost and Availability
 
@@ -116,3 +116,5 @@ UNC has a site license for Gradescope's Institutional plan. Answer grouping and 
 
 - [Gradescope Getting Started videos](https://www.gradescope.com/get_started) — Official tutorial videos
 - [AI-assisted grading and answer groups](https://guides.gradescope.com/hc/en-us/articles/24838908062093-AI-assisted-grading-and-answer-groups) — Official instructor guide
+- [Is Gradescope FERPA compliant?](https://guides.gradescope.com/hc/en-us/articles/21551911210509-Is-Gradescope-FERPA-compliant) — FERPA and student-record handling
+- [What does Gradescope do with my data?](https://guides.gradescope.com/hc/en-us/articles/21550853644813-What-does-Gradescope-do-with-my-data) — Assignment, rubric, and student-record ownership

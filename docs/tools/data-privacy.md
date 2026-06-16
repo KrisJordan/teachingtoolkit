@@ -39,7 +39,7 @@ Identifiers such as PIDs or ONYENs may be Tier 1 by themselves under the Univers
 
 **What it is:** Information the University must keep confidential because of law, regulation, contract, or policy. For instructors, the most common Tier 2 category is FERPA-protected education records.
 
-The practical line is this: if the material identifies a student and says something about their coursework, performance, enrollment, class schedule, feedback, participation, or submitted work, treat it as Tier 2 unless campus guidance says otherwise.
+The practical line is this: if the material identifies a student and says something about their coursework, performance, enrollment, class schedule, feedback, participation, or submitted work, treat it as Tier 2 unless campus guidance documents a different treatment.
 
 **Examples:**
 
@@ -49,7 +49,7 @@ The practical line is this: if the material identifies a student and says someth
 - Class schedules or enrollment information that is not public
 - Advising notes, recommendation notes, or other student-specific academic records
 
-**AI use:** Use tools in this toolkit that explicitly support Tier 2 or FERPA workflows. For general-purpose AI chat and drafting, use [Copilot 365](copilot-365.md) in UNC's Microsoft 365 environment. Purpose-built course systems such as Canvas and Gradescope may handle student records in their normal supported workflows; do not copy identifiable student records from those systems into another AI tool unless that tool's guide says it supports Tier 2 or FERPA data.
+**AI use:** Use tools in this toolkit that explicitly support Tier 2 or FERPA workflows. For general-purpose AI chat and drafting, use [Copilot 365](copilot-365.md) in UNC's Microsoft 365 environment. Purpose-built course systems such as Canvas and Gradescope may handle student records in their normal supported workflows; do not copy identifiable student records from those systems into another AI tool unless that tool's guide explicitly supports Tier 2 or FERPA data.
 
 ## Tier 3: Restricted Information
 
