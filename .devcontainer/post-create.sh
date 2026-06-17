@@ -14,13 +14,15 @@ uv venv --clear
 uv sync --dev
 
 # ---------------------------------------------------------------------------
-# Playwright — required by the playwright-visual-testing skill
+# Playwright — required for visual regression checks
 # ---------------------------------------------------------------------------
 
-# Install the Playwright Node.js package globally so `playwright` CLI and
-# the `run_playwright_code` / `screenshot_page` agent tools can use it.
+# Install the browser version that matches the Python Playwright package locked
+# in uv.lock. The visual check script runs through `uv run python`.
+uv run playwright install --with-deps chromium
+
+# Install the Playwright Node.js package globally as a convenience for agents or
+# editor tooling that expect the Node CLI.
 npm install -g playwright
 
-# Install Chromium browser binary and all required OS-level dependencies.
-# --with-deps handles system packages (fonts, libs) on Debian/Ubuntu images.
-npx playwright install --with-deps chromium
+npx playwright install chromium

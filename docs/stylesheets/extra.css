@@ -1,5 +1,6 @@
 /* CFE AI Teaching Toolkit on Zensical modern */
-:root {
+:root,
+[data-md-color-scheme="default"] {
   --unc-carolina-blue: #4b9cd3;
   --unc-navy: #13294b;
   --unc-white: #ffffff;
@@ -27,12 +28,12 @@
   --md-typeset-a-color: var(--unc-bolin-creek);
   --tt-ink: var(--unc-navy);
   --tt-blue: var(--unc-carolina-blue);
-  --tt-blue-soft: var(--unc-cloud);
-  --tt-border: rgba(19, 41, 75, 0.16);
-  --tt-border-strong: rgba(19, 41, 75, 0.28);
+  --tt-blue-soft: #dcecf7;
+  --tt-border: rgba(19, 41, 75, 0.22);
+  --tt-border-strong: rgba(19, 41, 75, 0.34);
   --tt-muted: var(--unc-old-well-basin);
   --tt-surface: var(--md-default-bg-color);
-  --tt-surface-soft: rgba(237, 245, 251, 0.58);
+  --tt-surface-soft: #f1f7fc;
   --tt-focus: rgba(75, 156, 211, 0.32);
   --ai-dir-controls-top: 48px;
   --ai-dir-thead-top: 150px;
@@ -52,6 +53,7 @@
   --tt-border: rgba(237, 245, 251, 0.16);
   --tt-border-strong: rgba(237, 245, 251, 0.28);
   --tt-muted: var(--unc-cornerstone);
+  --tt-surface: var(--md-default-bg-color);
   --tt-surface-soft: rgba(237, 245, 251, 0.06);
   --tt-focus: rgba(183, 215, 237, 0.38);
 }
@@ -664,6 +666,9 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    border-color: var(--tt-border-strong);
+    background: var(--tt-blue-soft);
+    color: var(--tt-ink);
   }
 
   .ai-directory-control-set,
